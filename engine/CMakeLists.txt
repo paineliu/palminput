@@ -4,6 +4,7 @@ project(py_test C)
 set(CMAKE_C_STANDARD 11)
 
 include_directories(./include)
+include_directories(./src/pinyin)
 
 SET(LIB_PINYIN_SRC
         ./src/pinyin/PDLexCore.c
@@ -47,9 +48,21 @@ SET(LIB_PINYIN_SRC
         ./src/pinyin/PYUtils.h
         )
 
+SET(PINYIN_TEST_SRC
+        ./test/main.c
+        ./test/pytest.c
+        ./test/pytest.h
+        ./test/pytest_dyn.c
+        ./test/pytest_engine.c
+        ./test/pytest_graph.c
+        ./test/pytest_han.c
+        ./test/pytest_lexread.c
+        ./test/pytest_lexwrite.c
+        )
+
 add_library(palmengine STATIC ${LIB_PINYIN_SRC})
 target_compile_options(palmengine PRIVATE -fPIC)
 # target_link_libraries(palmengine m)
 
-add_executable(pe_test ./test/main.c)
+add_executable(pe_test ${PINYIN_TEST_SRC})
 target_link_libraries(pe_test palmengine)
