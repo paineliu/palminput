@@ -1,0 +1,56 @@
+1、安装依赖包
+sudo apt install fcitx-libs-dev extra-cmake-modules libxkbcommon-dev libenchant-dev libxml2-dev libxkbfile-dev qt4-default libcairo2-dev intltool checkinstall
+
+2、更新 cmake
+
+cmake --version
+sudo apt remove cmake
+sudo apt purge --auto-remove cmake
+
+cd cmake-3.12.2
+./bootstrap 
+make -j8
+sudo make install
+
+echo $PATH
+
+gedit ~/.bashrc
+添加： export PATH=$PATH:/usr/local/bin
+cmake --version
+
+3、编译 fcitx
+
+解压缩 fcitx-4.2.9.6.zip 生成 fcitx-4.2.9.6 目录
+解压缩 fcitx-dict-4.2.9.6.tar.gz 到 fcitx-4.2.9.6 目录
+
+拷贝 fcitx 词库
+cd fcitx-4.2.9.6/fcitx_dict_4.2.9.6
+./run.sh
+cd ..
+
+编译
+mkdir build && cd build
+cmake ..
+make
+
+4、编译 fcitx-googlepinyin
+
+sudo apt install libgooglepinyin-dev intltool
+
+解压 fcitx-googlepinyin-0.1.6.zip
+
+编译
+mkdir build && cd build
+cmake ..
+make
+
+5、启用fcitx
+
+打开 Language Support
+切换到 fcitx
+
+6、安装
+
+sudo dpkg -i palminput_amd64.deb
+sudo dpkg -r palminput
+

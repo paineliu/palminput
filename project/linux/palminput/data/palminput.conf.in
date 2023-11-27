@@ -1,0 +1,7 @@
+[InputMethod]
+UniqueName=palminput
+_Name=Palm Input
+IconName=palminput
+Priority=10
+LangCode=zh_CN
+Parent=fcitx-palminput

@@ -1,0 +1,9 @@
+[Addon]
+Name=fcitx-palminput
+_GeneralName=Palm Input
+_Comment=Wrapper of Palm Input
+Category=InputMethod
+Enabled=True
+Library=fcitx-palminput.so
+Type=SharedLibrary
+IMRegisterMethod=ConfigFile

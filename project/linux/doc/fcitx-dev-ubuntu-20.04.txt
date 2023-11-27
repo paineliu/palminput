@@ -1,0 +1,35 @@
+1、安装依赖包
+sudo apt install fcitx-libs-dev extra-cmake-modules libxkbcommon-dev libenchant-dev libxml2-dev libxkbfile-dev cmake libcairo2-dev intltool checkinstall
+
+2、编译 fcitx-googlepinyin (可选)
+
+sudo apt install libgooglepinyin-dev intltool
+
+解压 fcitx-googlepinyin-0.1.6.zip
+
+编译
+mkdir build && cd build
+cmake ..
+make
+
+3、编译 fcitx-palminput
+
+编译
+mkdir build && cd build
+cmake ..
+make
+
+4、制作 fcitx-palminput 安装包
+
+install.sh
+
+5、启用fcitx
+
+打开 Language Support
+切换到 fcitx
+
+6、安装
+
+sudo dpkg -i palminput_amd64.deb
+sudo dpkg -r palminput
+
