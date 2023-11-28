@@ -3,4 +3,19 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="text_switch_ime">输入法切换</string>
+    <string name="text_enable_ime">启用输入法</string>
+    <string name="text_select_ime">选择输入法</string>
+    <string name="text_ime_action_default">完成</string>
+    <string name="text_ime_action_done">完成</string>
+    <string name="text_ime_action_go">前往</string>
+    <string name="text_ime_action_next">下一项</string>
+    <string name="text_ime_action_none">完成</string>
+    <string name="text_ime_action_previous">上一项</string>
+    <string name="text_ime_action_search">搜索</string>
+    <string name="text_ime_action_send">发送</string>
+    <string name="text_item_label_chinese">手写</string>
+    <string name="text_item_label_english">字母</string>
+    <string name="text_item_label_number">数字</string>
+    <string name="text_item_label_symbol">符号</string>
 </resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <android.inputmethodservice.ExtractEditText android:id="@android:id/inputExtractEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@android:color/holo_blue_dark"
+        android:gravity="left|center_vertical"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="@dimen/extra_edit_text_size"
+        android:singleLine="false"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:inputType="text|textImeMultiLine"
+        android:layout_marginLeft="@dimen/extra_edit_margin_size"
+        android:layout_marginRight="@dimen/extra_edit_margin_size"
+        android:includeFontPadding="false"
+        android:textColorHint="@android:color/darker_gray"/>
+
+</RelativeLayout>
