@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <memory.h>
-#include <Windows.h>
 
-#include "PYTest.h"
+#ifdef _WIN32
+#include <Windows.h>
+#endif
+
+#include "pytest.h"
 #include "PYDyn.h"
 #include "PYDynEx.h"
 

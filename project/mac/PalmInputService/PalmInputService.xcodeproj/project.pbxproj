@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842C8A53215D92E300E27600 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 842C8A51215D92E300E27600 /* InfoPlist.strings */; };
+		843A7B08216786F800CC90E3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 843A7B0A216786F800CC90E3 /* Localizable.strings */; };
+		846EB005217DEAFE00E1E3C4 /* PYInputIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 846EB004217DEAFE00E1E3C4 /* PYInputIcon.pdf */; };
+		84A4612F216748ED00D7D9D1 /* PalmInputPreference.app in Resources */ = {isa = PBXBuildFile; fileRef = 84A4612E216748ED00D7D9D1 /* PalmInputPreference.app */; };
+		84A8CDE820C520B7003980AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8CDE720C520B7003980AF /* AppDelegate.m */; };
+		84A8CDEA20C520B8003980AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A8CDE920C520B8003980AF /* Assets.xcassets */; };
+		84A8CDED20C520B8003980AF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A8CDEB20C520B8003980AF /* MainMenu.xib */; };
+		84A8CDF020C520B8003980AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8CDEF20C520B8003980AF /* main.m */; };
+		84A8CE8520C6C5B3003980AF /* PYInputTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8CE8120C6C5B2003980AF /* PYInputTipsView.m */; };
+		84A8CE8720C6C5B3003980AF /* PYInputTipsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8CE8320C6C5B2003980AF /* PYInputTipsWindow.m */; };
+		84A8CE8D20C6CE4F003980AF /* PYInputCandWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8CE8A20C6CE4E003980AF /* PYInputCandWindow.m */; };
+		84A8CE8E20C6CE4F003980AF /* PYInputCandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8CE8B20C6CE4E003980AF /* PYInputCandView.m */; };
+		84CD7FC920C7704700646186 /* PYInputSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD7FC720C7704700646186 /* PYInputSymbol.m */; };
+		84CD7FCA20C7704700646186 /* PYInputOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD7FC820C7704700646186 /* PYInputOption.m */; };
+		84CD7FCD20C7725800646186 /* PYInputPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD7FCC20C7725800646186 /* PYInputPreference.m */; };
+		84CD7FD020C7734400646186 /* PYInputController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD7FCF20C7734400646186 /* PYInputController.m */; };
+		84CD7FD320C7744100646186 /* PYInputNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD7FD120C7744100646186 /* PYInputNotification.m */; };
+		84E11B94216390990054270B /* PalmInputAbout.app in Resources */ = {isa = PBXBuildFile; fileRef = 84E11B93216390990054270B /* PalmInputAbout.app */; };
+		E75CC04E25F8A7E40075E33F /* PYInputConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = E75CC04D25F8A7E40075E33F /* PYInputConvert.m */; };
+		E76ACE972B158EB600A68533 /* PYProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E76ACE952B158EB600A68533 /* PYProvider.m */; };
+		E76ACE9F2B15B43000A68533 /* libpalmengine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E76ACE9E2B15B3F700A68533 /* libpalmengine.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		842C8A52215D92E300E27600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		843A7B09216786F800CC90E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		843A7B0B2167873F00CC90E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		843A7B0C216789A000CC90E3 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/Localizable.strings; sourceTree = "<group>"; };
+		843A7B0D216789A100CC90E3 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		846EB004217DEAFE00E1E3C4 /* PYInputIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PYInputIcon.pdf; sourceTree = "<group>"; };
+		84A4612E216748ED00D7D9D1 /* PalmInputPreference.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = PalmInputPreference.app; path = App/PalmInputPreference.app; sourceTree = "<group>"; };
+		84A461302167856100D7D9D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84A8CDE320C520B7003980AF /* PalmInputService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PalmInputService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A8CDE620C520B7003980AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84A8CDE720C520B7003980AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84A8CDE920C520B8003980AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A8CDEC20C520B8003980AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		84A8CDEE20C520B8003980AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A8CDEF20C520B8003980AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84A8CDF120C520B8003980AF /* PalmInputService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PalmInputService.entitlements; sourceTree = "<group>"; };
+		84A8CE7F20C6C5B2003980AF /* PYInputTipsWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYInputTipsWindow.h; sourceTree = "<group>"; };
+		84A8CE8020C6C5B2003980AF /* PYInputTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYInputTipsView.h; sourceTree = "<group>"; };
+		84A8CE8120C6C5B2003980AF /* PYInputTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYInputTipsView.m; sourceTree = "<group>"; };
+		84A8CE8320C6C5B2003980AF /* PYInputTipsWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYInputTipsWindow.m; sourceTree = "<group>"; };
+		84A8CE8920C6CE4E003980AF /* PYInputCandWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYInputCandWindow.h; sourceTree = "<group>"; };
+		84A8CE8A20C6CE4E003980AF /* PYInputCandWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYInputCandWindow.m; sourceTree = "<group>"; };
+		84A8CE8B20C6CE4E003980AF /* PYInputCandView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYInputCandView.m; sourceTree = "<group>"; };
+		84A8CE8C20C6CE4E003980AF /* PYInputCandView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYInputCandView.h; sourceTree = "<group>"; };
+		84CD7FC520C7704700646186 /* PYInputSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYInputSymbol.h; sourceTree = "<group>"; };
+		84CD7FC620C7704700646186 /* PYInputOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYInputOption.h; sourceTree = "<group>"; };
+		84CD7FC720C7704700646186 /* PYInputSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYInputSymbol.m; sourceTree = "<group>"; };
+		84CD7FC820C7704700646186 /* PYInputOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYInputOption.m; sourceTree = "<group>"; };
+		84CD7FCB20C7725800646186 /* PYInputPreference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYInputPreference.h; sourceTree = "<group>"; };
+		84CD7FCC20C7725800646186 /* PYInputPreference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYInputPreference.m; sourceTree = "<group>"; };
+		84CD7FCE20C7734400646186 /* PYInputController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYInputController.h; sourceTree = "<group>"; };
+		84CD7FCF20C7734400646186 /* PYInputController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYInputController.m; sourceTree = "<group>"; };
+		84CD7FD120C7744100646186 /* PYInputNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYInputNotification.m; sourceTree = "<group>"; };
+		84CD7FD220C7744100646186 /* PYInputNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYInputNotification.h; sourceTree = "<group>"; };
+		84E11B93216390990054270B /* PalmInputAbout.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = PalmInputAbout.app; path = App/PalmInputAbout.app; sourceTree = "<group>"; };
+		E741F06025D27FC000A2B21C /* PYInputPubDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYInputPubDef.h; sourceTree = "<group>"; };
+		E75CC04C25F8A7E40075E33F /* PYInputConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYInputConvert.h; sourceTree = "<group>"; };
+		E75CC04D25F8A7E40075E33F /* PYInputConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYInputConvert.m; sourceTree = "<group>"; };
+		E76ACE952B158EB600A68533 /* PYProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYProvider.m; sourceTree = "<group>"; };
+		E76ACE962B158EB600A68533 /* PYProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYProvider.h; sourceTree = "<group>"; };
+		E76ACE992B15B06200A68533 /* PYEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYEngine.h; path = ../../../../../engine/include/PYEngine.h; sourceTree = "<group>"; };
+		E76ACE9A2B15B06200A68533 /* PYEngineEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYEngineEx.h; path = ../../../../../engine/include/PYEngineEx.h; sourceTree = "<group>"; };
+		E76ACE9B2B15B06200A68533 /* PYTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYTypeDef.h; path = ../../../../../engine/include/PYTypeDef.h; sourceTree = "<group>"; };
+		E76ACE9C2B15B12600A68533 /* PYDynEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYDynEx.h; path = ../../../../../engine/include/PYDynEx.h; sourceTree = "<group>"; };
+		E76ACE9D2B15B12600A68533 /* PDLexCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDLexCore.h; path = ../../../../../engine/include/PDLexCore.h; sourceTree = "<group>"; };
+		E76ACE9E2B15B3F700A68533 /* libpalmengine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpalmengine.a; path = ../../../engine/lib/mac/libpalmengine.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A8CDE020C520B7003980AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76ACE9F2B15B43000A68533 /* libpalmengine.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84187B62215DC66F0011B958 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E76ACE9E2B15B3F700A68533 /* libpalmengine.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84A8CDDA20C520B7003980AF = {
+			isa = PBXGroup;
+			children = (
+				84E11B922163908B0054270B /* App */,
+				84A8CDE520C520B7003980AF /* PalmInputService */,
+				84A8CDE420C520B7003980AF /* Products */,
+				84187B62215DC66F0011B958 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84A8CDE420C520B7003980AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A8CDE320C520B7003980AF /* PalmInputService.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A8CDE520C520B7003980AF /* PalmInputService */ = {
+			isa = PBXGroup;
+			children = (
+				E76ACE982B15B03A00A68533 /* Engine */,
+				E76ACE942B158E9700A68533 /* Provider */,
+				E7DBB34625FF5385001A9098 /* PYInput */,
+				84A8CDE620C520B7003980AF /* AppDelegate.h */,
+				84A8CDE720C520B7003980AF /* AppDelegate.m */,
+				84A8CDE920C520B8003980AF /* Assets.xcassets */,
+				84A8CDF120C520B8003980AF /* PalmInputService.entitlements */,
+				84A8CDEE20C520B8003980AF /* Info.plist */,
+				842C8A51215D92E300E27600 /* InfoPlist.strings */,
+				843A7B0A216786F800CC90E3 /* Localizable.strings */,
+				84A8CDEF20C520B8003980AF /* main.m */,
+				84A8CDEB20C520B8003980AF /* MainMenu.xib */,
+				846EB004217DEAFE00E1E3C4 /* PYInputIcon.pdf */,
+			);
+			path = PalmInputService;
+			sourceTree = "<group>";
+		};
+		84E11B922163908B0054270B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				84A4612E216748ED00D7D9D1 /* PalmInputPreference.app */,
+				84E11B93216390990054270B /* PalmInputAbout.app */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		E76ACE942B158E9700A68533 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				E76ACE962B158EB600A68533 /* PYProvider.h */,
+				E76ACE952B158EB600A68533 /* PYProvider.m */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		E76ACE982B15B03A00A68533 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				E76ACE9D2B15B12600A68533 /* PDLexCore.h */,
+				E76ACE9C2B15B12600A68533 /* PYDynEx.h */,
+				E76ACE992B15B06200A68533 /* PYEngine.h */,
+				E76ACE9A2B15B06200A68533 /* PYEngineEx.h */,
+				E76ACE9B2B15B06200A68533 /* PYTypeDef.h */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		E7DBB34625FF5385001A9098 /* PYInput */ = {
+			isa = PBXGroup;
+			children = (
+				84CD7FD220C7744100646186 /* PYInputNotification.h */,
+				84CD7FD120C7744100646186 /* PYInputNotification.m */,
+				84CD7FC620C7704700646186 /* PYInputOption.h */,
+				84CD7FC820C7704700646186 /* PYInputOption.m */,
+				84CD7FCB20C7725800646186 /* PYInputPreference.h */,
+				84CD7FCC20C7725800646186 /* PYInputPreference.m */,
+				E741F06025D27FC000A2B21C /* PYInputPubDef.h */,
+				84CD7FC520C7704700646186 /* PYInputSymbol.h */,
+				84CD7FC720C7704700646186 /* PYInputSymbol.m */,
+				84A8CE8020C6C5B2003980AF /* PYInputTipsView.h */,
+				84A8CE8120C6C5B2003980AF /* PYInputTipsView.m */,
+				84A8CE7F20C6C5B2003980AF /* PYInputTipsWindow.h */,
+				84A8CE8320C6C5B2003980AF /* PYInputTipsWindow.m */,
+				84A8CE8C20C6CE4E003980AF /* PYInputCandView.h */,
+				84A8CE8B20C6CE4E003980AF /* PYInputCandView.m */,
+				84A8CE8920C6CE4E003980AF /* PYInputCandWindow.h */,
+				84A8CE8A20C6CE4E003980AF /* PYInputCandWindow.m */,
+				84CD7FCE20C7734400646186 /* PYInputController.h */,
+				84CD7FCF20C7734400646186 /* PYInputController.m */,
+				E75CC04C25F8A7E40075E33F /* PYInputConvert.h */,
+				E75CC04D25F8A7E40075E33F /* PYInputConvert.m */,
+			);
+			path = PYInput;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A8CDE220C520B7003980AF /* PalmInputService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A8CDF420C520B8003980AF /* Build configuration list for PBXNativeTarget "PalmInputService" */;
+			buildPhases = (
+				84A8CDDF20C520B7003980AF /* Sources */,
+				84A8CDE020C520B7003980AF /* Frameworks */,
+				84A8CDE120C520B7003980AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PalmInputService;
+			productName = PalmInputService;
+			productReference = 84A8CDE320C520B7003980AF /* PalmInputService.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A8CDDB20C520B7003980AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = freeinput;
+				TargetAttributes = {
+					84A8CDE220C520B7003980AF = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 84A8CDDE20C520B7003980AF /* Build configuration list for PBXProject "PalmInputService" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				zh_CN,
+			);
+			mainGroup = 84A8CDDA20C520B7003980AF;
+			productRefGroup = 84A8CDE420C520B7003980AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A8CDE220C520B7003980AF /* PalmInputService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A8CDE120C520B7003980AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A4612F216748ED00D7D9D1 /* PalmInputPreference.app in Resources */,
+				843A7B08216786F800CC90E3 /* Localizable.strings in Resources */,
+				846EB005217DEAFE00E1E3C4 /* PYInputIcon.pdf in Resources */,
+				84A8CDEA20C520B8003980AF /* Assets.xcassets in Resources */,
+				842C8A53215D92E300E27600 /* InfoPlist.strings in Resources */,
+				84A8CDED20C520B8003980AF /* MainMenu.xib in Resources */,
+				84E11B94216390990054270B /* PalmInputAbout.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A8CDDF20C520B7003980AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A8CDF020C520B8003980AF /* main.m in Sources */,
+				84A8CDE820C520B7003980AF /* AppDelegate.m in Sources */,
+				84A8CE8520C6C5B3003980AF /* PYInputTipsView.m in Sources */,
+				E76ACE972B158EB600A68533 /* PYProvider.m in Sources */,
+				84A8CE8D20C6CE4F003980AF /* PYInputCandWindow.m in Sources */,
+				84CD7FD320C7744100646186 /* PYInputNotification.m in Sources */,
+				84A8CE8E20C6CE4F003980AF /* PYInputCandView.m in Sources */,
+				84CD7FC920C7704700646186 /* PYInputSymbol.m in Sources */,
+				84A8CE8720C6C5B3003980AF /* PYInputTipsWindow.m in Sources */,
+				84CD7FCA20C7704700646186 /* PYInputOption.m in Sources */,
+				E75CC04E25F8A7E40075E33F /* PYInputConvert.m in Sources */,
+				84CD7FD020C7734400646186 /* PYInputController.m in Sources */,
+				84CD7FCD20C7725800646186 /* PYInputPreference.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		842C8A51215D92E300E27600 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842C8A52215D92E300E27600 /* Base */,
+				84A461302167856100D7D9D1 /* en */,
+				843A7B0D216789A100CC90E3 /* zh_CN */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		843A7B0A216786F800CC90E3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843A7B09216786F800CC90E3 /* en */,
+				843A7B0B2167873F00CC90E3 /* Base */,
+				843A7B0C216789A000CC90E3 /* zh_CN */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		84A8CDEB20C520B8003980AF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A8CDEC20C520B8003980AF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A8CDF220C520B8003980AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../../engine/include;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84A8CDF320C520B8003980AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../../engine/include;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84A8CDF520C520B8003980AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PalmInputService/PalmInputService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PalmInputService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = ../../../engine/lib/mac;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freeinput.inputmethod.PalmInputService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84A8CDF620C520B8003980AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PalmInputService/PalmInputService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PalmInputService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = ../../../engine/lib/mac;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freeinput.inputmethod.PalmInputService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A8CDDE20C520B7003980AF /* Build configuration list for PBXProject "PalmInputService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A8CDF220C520B8003980AF /* Debug */,
+				84A8CDF320C520B8003980AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A8CDF420C520B8003980AF /* Build configuration list for PBXNativeTarget "PalmInputService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A8CDF520C520B8003980AF /* Debug */,
+				84A8CDF620C520B8003980AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A8CDDB20C520B7003980AF /* Project object */;
+}

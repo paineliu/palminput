@@ -138,8 +138,8 @@ int test_dyn_reader()
 
     fclose(fpOut);
 
-    PYDyn_SaveLex(&stBlock, "../../../Test/Data/user.lex");
-    PYDyn_DumpFile("../../../Test/Data/user.lex", "../../../Test/Data/user.log");
+    // PYDyn_SaveLex(&stBlock, "../../../Test/Data/user.lex");
+    // PYDyn_DumpFile("../../../Test/Data/user.lex", "../../../Test/Data/user.log");
 
     return 0;
 }

@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+
+com.freeinput.inputmethod.chinese = "比特输入法";
+CFBundleName = "比特输入法";
