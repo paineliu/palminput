@@ -115,7 +115,6 @@ public class InputMgrView extends ViewGroup implements IOperater {
                 return createSkin(kbRect, mSkinPath + "/symbol-qwerty-en-more.json");
             case INPUT_METHOD_ENGLISH:
                 return createSkin(kbRect, mSkinPath + "/english-qwerty.json");
-
         }
 
         return null;
@@ -184,6 +183,7 @@ public class InputMgrView extends ViewGroup implements IOperater {
 
         mCurrentKeyboard = mCurrentKeyboardMain;
 
+        // !!!!
         if (mCurrentKeyboard == mPinyinView || mCurrentKeyboard == mHandView)
         {
             mCurrentKeyboard = mEnglishView;
@@ -242,7 +242,6 @@ public class InputMgrView extends ViewGroup implements IOperater {
                 mCurrentKeyboard = mHandView;
                 mCurrentKeyboardMain = mCurrentKeyboard;
                 preferences.setChineseInputMethod(INPUT_METHOD_HANDWRITE);
-
                 break;
             case INPUT_METHOD_PINYIN:
             default:
@@ -250,10 +249,10 @@ public class InputMgrView extends ViewGroup implements IOperater {
                 mCurrentKeyboard = mPinyinView;
                 mCurrentKeyboardMain = mCurrentKeyboard;
                 preferences.setChineseInputMethod(INPUT_METHOD_PINYIN);
-                mCurrentKeyboard = mEnglishView;
                 break;
         }
 
+        // !!!!
         if (mCurrentKeyboard == mPinyinView || mCurrentKeyboard == mHandView)
         {
             mCurrentKeyboard = mEnglishView;

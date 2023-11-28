@@ -2,6 +2,7 @@ package com.palminput.keyboard.view;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.content.res.AssetManager;
 import android.graphics.Color;
 import android.view.View;
 import android.view.ViewGroup;
@@ -208,8 +209,9 @@ public class PinyinView extends ViewGroup implements IKeyboard{
             manager.setOrientation(LinearLayoutManager.HORIZONTAL);
 
             rv.setLayoutManager(manager);//线性
-
-            pyAdapter.create(mInputService.getAssets(), "pinyin/", mInputService.getFilesDir().toString());
+            String userFileName = mInputService.getFilesDir().toString();
+            AssetManager assetManager = mInputService.getAssets();
+            pyAdapter.create(assetManager, "pinyin/", userFileName);
             String SHARED_PREFERENCES_NAME = "FlutterSharedPreferences";
             SharedPreferences sp = mInputService.getSharedPreferences(SHARED_PREFERENCES_NAME, Context.MODE_PRIVATE);
             PYOptions options = new PYOptions(0, false);
