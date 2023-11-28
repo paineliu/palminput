@@ -22,7 +22,6 @@ SET(LIB_PINYIN_SRC
         ./src/pinyin/PYDynEx.h
         ./src/pinyin/PYEngine.c
         ./src/pinyin/PYEngineEx.c
-        ./src/pinyin/PYEngineEx.h
         ./src/pinyin/PYFix.c
         ./src/pinyin/PYFix.h
         ./src/pinyin/PYGraph.c

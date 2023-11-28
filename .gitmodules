@@ -1,0 +1,3 @@
+[submodule "project/windows/libIME2"]
+	path = project/windows/libIME2
+	url = git@github.com:EasyIME/libIME2.git

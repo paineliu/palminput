@@ -1,0 +1,8 @@
+LIBRARY PalmInput.dll
+
+EXPORTS
+    DllGetClassObject               PRIVATE
+    DllCanUnloadNow                 PRIVATE
+    DllRegisterServer               PRIVATE
+    DllUnregisterServer             PRIVATE
+    PalmInputSetup                   PRIVATE
