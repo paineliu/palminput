@@ -183,6 +183,12 @@ public class InputMgrView extends ViewGroup implements IOperater {
         }
 
         mCurrentKeyboard = mCurrentKeyboardMain;
+
+        if (mCurrentKeyboard == mPinyinView || mCurrentKeyboard == mHandView)
+        {
+            mCurrentKeyboard = mEnglishView;
+        }
+
         addView((View) mCurrentKeyboard);
         mCurrentKeyboard.show();
     }
@@ -236,6 +242,7 @@ public class InputMgrView extends ViewGroup implements IOperater {
                 mCurrentKeyboard = mHandView;
                 mCurrentKeyboardMain = mCurrentKeyboard;
                 preferences.setChineseInputMethod(INPUT_METHOD_HANDWRITE);
+
                 break;
             case INPUT_METHOD_PINYIN:
             default:
@@ -243,7 +250,13 @@ public class InputMgrView extends ViewGroup implements IOperater {
                 mCurrentKeyboard = mPinyinView;
                 mCurrentKeyboardMain = mCurrentKeyboard;
                 preferences.setChineseInputMethod(INPUT_METHOD_PINYIN);
+                mCurrentKeyboard = mEnglishView;
                 break;
+        }
+
+        if (mCurrentKeyboard == mPinyinView || mCurrentKeyboard == mHandView)
+        {
+            mCurrentKeyboard = mEnglishView;
         }
 
         if (!mCurrentKeyboard.isInit()) {
