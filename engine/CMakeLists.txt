@@ -8,7 +8,6 @@ include_directories(./src/pinyin)
 
 SET(LIB_PINYIN_SRC
         ./src/pinyin/PDLexCore.c
-        ./src/pinyin/PDLexCore.h
         ./src/pinyin/PDLexBeijing.c
         ./src/pinyin/PDLexBeijing.h
         ./src/pinyin/PDLexName.c
@@ -19,7 +18,6 @@ SET(LIB_PINYIN_SRC
         ./src/pinyin/PYDyn.c
         ./src/pinyin/PYDyn.h
         ./src/pinyin/PYDynEx.c
-        ./src/pinyin/PYDynEx.h
         ./src/pinyin/PYEngine.c
         ./src/pinyin/PYEngineEx.c
         ./src/pinyin/PYFix.c
