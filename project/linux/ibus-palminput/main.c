@@ -2,7 +2,7 @@
 
 #include <ibus.h>
 #include "engine.h"
-
+#define PKGDATADIR "/usr/local/share/ibus-impl"
 static IBusBus *bus = NULL;
 static IBusFactory *factory = NULL;
 
