@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7E597242B19A84400AEA055 /* PalmInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E597232B19A84400AEA055 /* PalmInputApp.swift */; };
+		E7E597262B19A84400AEA055 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E597252B19A84400AEA055 /* ContentView.swift */; };
+		E7E597282B19A84600AEA055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E597272B19A84600AEA055 /* Assets.xcassets */; };
+		E7E5972B2B19A84600AEA055 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E5972A2B19A84600AEA055 /* Preview Assets.xcassets */; };
+		E7E597382B19A91B00AEA055 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E597372B19A91B00AEA055 /* KeyboardViewController.swift */; };
+		E7E5973C2B19A91B00AEA055 /* PalmKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E7E597352B19A91B00AEA055 /* PalmKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E7E597422B19A96300AEA055 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E597412B19A96300AEA055 /* SwiftyJSON.swift */; };
+		E7E597462B19A9EB00AEA055 /* KeyboardSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E597442B19A9EB00AEA055 /* KeyboardSkin.swift */; };
+		E7E597662B19ABC300AEA055 /* HandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E597602B19ABC200AEA055 /* HandView.swift */; };
+		E7E597672B19ABC300AEA055 /* InputResPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E597612B19ABC200AEA055 /* InputResPool.swift */; };
+		E7E597682B19ABC300AEA055 /* PinyinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E597622B19ABC300AEA055 /* PinyinView.swift */; };
+		E7E597692B19ABC300AEA055 /* InputMgrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E597632B19ABC300AEA055 /* InputMgrView.swift */; };
+		E7E5976A2B19ABC300AEA055 /* num_keyboard.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597642B19ABC300AEA055 /* num_keyboard.json */; };
+		E7E5976B2B19ABC300AEA055 /* InputBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E597652B19ABC300AEA055 /* InputBaseView.swift */; };
+		E7E5976E2B19ACDE00AEA055 /* libpalmengine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E5976D2B19ACDE00AEA055 /* libpalmengine.a */; };
+		E7E597A62B19B06200AEA055 /* handwrite.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597732B19B06200AEA055 /* handwrite.json */; };
+		E7E597A72B19B06200AEA055 /* emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597742B19B06200AEA055 /* emoji.png */; };
+		E7E597A82B19B06200AEA055 /* space.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597752B19B06200AEA055 /* space.png */; };
+		E7E597A92B19B06200AEA055 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597762B19B06200AEA055 /* lock.png */; };
+		E7E597AA2B19B06200AEA055 /* pinyin-qwerty.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597772B19B06200AEA055 /* pinyin-qwerty.json */; };
+		E7E597AB2B19B06200AEA055 /* symbol-qwerty-en-more.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597782B19B06200AEA055 /* symbol-qwerty-en-more.json */; };
+		E7E597AC2B19B06200AEA055 /* shift_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597792B19B06200AEA055 /* shift_normal.png */; };
+		E7E597AD2B19B06200AEA055 /* english-qwerty-ios.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E5977A2B19B06200AEA055 /* english-qwerty-ios.json */; };
+		E7E597AE2B19B06200AEA055 /* shift_locked.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E5977B2B19B06200AEA055 /* shift_locked.png */; };
+		E7E597AF2B19B06200AEA055 /* number.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E5977C2B19B06200AEA055 /* number.json */; };
+		E7E597B02B19B06200AEA055 /* cn_en.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E5977D2B19B06200AEA055 /* cn_en.png */; };
+		E7E597B12B19B06200AEA055 /* symbol-qwerty-cn.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E5977E2B19B06200AEA055 /* symbol-qwerty-cn.json */; };
+		E7E597B22B19B06200AEA055 /* entry.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E5977F2B19B06200AEA055 /* entry.png */; };
+		E7E597B32B19B06200AEA055 /* en_cn.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597802B19B06200AEA055 /* en_cn.png */; };
+		E7E597B42B19B06200AEA055 /* symbol-number.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597812B19B06200AEA055 /* symbol-number.json */; };
+		E7E597B52B19B06200AEA055 /* english-qwerty.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597822B19B06200AEA055 /* english-qwerty.json */; };
+		E7E597B62B19B06200AEA055 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597832B19B06200AEA055 /* menu.png */; };
+		E7E597B72B19B06200AEA055 /* symbol-qwerty-cn-more.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597842B19B06200AEA055 /* symbol-qwerty-cn-more.json */; };
+		E7E597B82B19B06200AEA055 /* backspace.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597852B19B06200AEA055 /* backspace.png */; };
+		E7E597B92B19B06200AEA055 /* symbol-qwerty-en.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597862B19B06200AEA055 /* symbol-qwerty-en.json */; };
+		E7E597BA2B19B06200AEA055 /* language.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597872B19B06200AEA055 /* language.png */; };
+		E7E597BB2B19B06200AEA055 /* unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597882B19B06200AEA055 /* unlock.png */; };
+		E7E597BC2B19B06200AEA055 /* pinyin-qwerty-ios.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597892B19B06200AEA055 /* pinyin-qwerty-ios.json */; };
+		E7E597BD2B19B06200AEA055 /* shift_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E5978A2B19B06200AEA055 /* shift_upper.png */; };
+		E7E597BE2B19B06200AEA055 /* hide.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E5978B2B19B06200AEA055 /* hide.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7E5973A2B19A91B00AEA055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7E597182B19A84400AEA055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7E597342B19A91B00AEA055;
+			remoteInfo = PalmKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E7E597402B19A91B00AEA055 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E7E5973C2B19A91B00AEA055 /* PalmKeyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E7E597202B19A84400AEA055 /* PalmInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PalmInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E597232B19A84400AEA055 /* PalmInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalmInputApp.swift; sourceTree = "<group>"; };
+		E7E597252B19A84400AEA055 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E7E597272B19A84600AEA055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7E5972A2B19A84600AEA055 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7E597352B19A91B00AEA055 /* PalmKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PalmKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E597372B19A91B00AEA055 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		E7E597392B19A91B00AEA055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E597412B19A96300AEA055 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		E7E597442B19A9EB00AEA055 /* KeyboardSkin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardSkin.swift; sourceTree = "<group>"; };
+		E7E597602B19ABC200AEA055 /* HandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandView.swift; sourceTree = "<group>"; };
+		E7E597612B19ABC200AEA055 /* InputResPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputResPool.swift; sourceTree = "<group>"; };
+		E7E597622B19ABC300AEA055 /* PinyinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinyinView.swift; sourceTree = "<group>"; };
+		E7E597632B19ABC300AEA055 /* InputMgrView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputMgrView.swift; sourceTree = "<group>"; };
+		E7E597642B19ABC300AEA055 /* num_keyboard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = num_keyboard.json; sourceTree = "<group>"; };
+		E7E597652B19ABC300AEA055 /* InputBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputBaseView.swift; sourceTree = "<group>"; };
+		E7E5976D2B19ACDE00AEA055 /* libpalmengine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpalmengine.a; path = "../../../engine/lib/ios/Release-iphoneos/libpalmengine.a"; sourceTree = "<group>"; };
+		E7E597702B19AD0A00AEA055 /* palmengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = palmengine.h; path = ../../../../engine/project/ios/palmengine/palmengine/palmengine.h; sourceTree = "<group>"; };
+		E7E597712B19ADC800AEA055 /* PalmKeyboard-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PalmKeyboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		E7E597732B19B06200AEA055 /* handwrite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = handwrite.json; sourceTree = "<group>"; };
+		E7E597742B19B06200AEA055 /* emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji.png; sourceTree = "<group>"; };
+		E7E597752B19B06200AEA055 /* space.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = space.png; sourceTree = "<group>"; };
+		E7E597762B19B06200AEA055 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		E7E597772B19B06200AEA055 /* pinyin-qwerty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pinyin-qwerty.json"; sourceTree = "<group>"; };
+		E7E597782B19B06200AEA055 /* symbol-qwerty-en-more.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "symbol-qwerty-en-more.json"; sourceTree = "<group>"; };
+		E7E597792B19B06200AEA055 /* shift_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shift_normal.png; sourceTree = "<group>"; };
+		E7E5977A2B19B06200AEA055 /* english-qwerty-ios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "english-qwerty-ios.json"; sourceTree = "<group>"; };
+		E7E5977B2B19B06200AEA055 /* shift_locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shift_locked.png; sourceTree = "<group>"; };
+		E7E5977C2B19B06200AEA055 /* number.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = number.json; sourceTree = "<group>"; };
+		E7E5977D2B19B06200AEA055 /* cn_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cn_en.png; sourceTree = "<group>"; };
+		E7E5977E2B19B06200AEA055 /* symbol-qwerty-cn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "symbol-qwerty-cn.json"; sourceTree = "<group>"; };
+		E7E5977F2B19B06200AEA055 /* entry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entry.png; sourceTree = "<group>"; };
+		E7E597802B19B06200AEA055 /* en_cn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_cn.png; sourceTree = "<group>"; };
+		E7E597812B19B06200AEA055 /* symbol-number.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "symbol-number.json"; sourceTree = "<group>"; };
+		E7E597822B19B06200AEA055 /* english-qwerty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "english-qwerty.json"; sourceTree = "<group>"; };
+		E7E597832B19B06200AEA055 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		E7E597842B19B06200AEA055 /* symbol-qwerty-cn-more.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "symbol-qwerty-cn-more.json"; sourceTree = "<group>"; };
+		E7E597852B19B06200AEA055 /* backspace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspace.png; sourceTree = "<group>"; };
+		E7E597862B19B06200AEA055 /* symbol-qwerty-en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "symbol-qwerty-en.json"; sourceTree = "<group>"; };
+		E7E597872B19B06200AEA055 /* language.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = language.png; sourceTree = "<group>"; };
+		E7E597882B19B06200AEA055 /* unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlock.png; sourceTree = "<group>"; };
+		E7E597892B19B06200AEA055 /* pinyin-qwerty-ios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pinyin-qwerty-ios.json"; sourceTree = "<group>"; };
+		E7E5978A2B19B06200AEA055 /* shift_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shift_upper.png; sourceTree = "<group>"; };
+		E7E5978B2B19B06200AEA055 /* hide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hide.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7E5971D2B19A84400AEA055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7E597322B19A91B00AEA055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E5976E2B19ACDE00AEA055 /* libpalmengine.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7E597172B19A84400AEA055 = {
+			isa = PBXGroup;
+			children = (
+				E7E597222B19A84400AEA055 /* PalmInput */,
+				E7E597362B19A91B00AEA055 /* PalmKeyboard */,
+				E7E597212B19A84400AEA055 /* Products */,
+				E7E5976C2B19ACDE00AEA055 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7E597212B19A84400AEA055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7E597202B19A84400AEA055 /* PalmInput.app */,
+				E7E597352B19A91B00AEA055 /* PalmKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7E597222B19A84400AEA055 /* PalmInput */ = {
+			isa = PBXGroup;
+			children = (
+				E7E597232B19A84400AEA055 /* PalmInputApp.swift */,
+				E7E597252B19A84400AEA055 /* ContentView.swift */,
+				E7E597272B19A84600AEA055 /* Assets.xcassets */,
+				E7E597292B19A84600AEA055 /* Preview Content */,
+			);
+			path = PalmInput;
+			sourceTree = "<group>";
+		};
+		E7E597292B19A84600AEA055 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E7E5972A2B19A84600AEA055 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7E597362B19A91B00AEA055 /* PalmKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E7E597712B19ADC800AEA055 /* PalmKeyboard-Bridging-Header.h */,
+				E7E597722B19B06200AEA055 /* skin-black */,
+				E7E5976F2B19ACF000AEA055 /* PalmEngine */,
+				E7E597372B19A91B00AEA055 /* KeyboardViewController.swift */,
+				E7E597442B19A9EB00AEA055 /* KeyboardSkin.swift */,
+				E7E597412B19A96300AEA055 /* SwiftyJSON.swift */,
+				E7E597602B19ABC200AEA055 /* HandView.swift */,
+				E7E597652B19ABC300AEA055 /* InputBaseView.swift */,
+				E7E597632B19ABC300AEA055 /* InputMgrView.swift */,
+				E7E597612B19ABC200AEA055 /* InputResPool.swift */,
+				E7E597642B19ABC300AEA055 /* num_keyboard.json */,
+				E7E597622B19ABC300AEA055 /* PinyinView.swift */,
+				E7E597392B19A91B00AEA055 /* Info.plist */,
+			);
+			path = PalmKeyboard;
+			sourceTree = "<group>";
+		};
+		E7E5976C2B19ACDE00AEA055 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7E5976D2B19ACDE00AEA055 /* libpalmengine.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7E5976F2B19ACF000AEA055 /* PalmEngine */ = {
+			isa = PBXGroup;
+			children = (
+				E7E597702B19AD0A00AEA055 /* palmengine.h */,
+			);
+			name = PalmEngine;
+			sourceTree = "<group>";
+		};
+		E7E597722B19B06200AEA055 /* skin-black */ = {
+			isa = PBXGroup;
+			children = (
+				E7E597732B19B06200AEA055 /* handwrite.json */,
+				E7E597742B19B06200AEA055 /* emoji.png */,
+				E7E597752B19B06200AEA055 /* space.png */,
+				E7E597762B19B06200AEA055 /* lock.png */,
+				E7E597772B19B06200AEA055 /* pinyin-qwerty.json */,
+				E7E597782B19B06200AEA055 /* symbol-qwerty-en-more.json */,
+				E7E597792B19B06200AEA055 /* shift_normal.png */,
+				E7E5977A2B19B06200AEA055 /* english-qwerty-ios.json */,
+				E7E5977B2B19B06200AEA055 /* shift_locked.png */,
+				E7E5977C2B19B06200AEA055 /* number.json */,
+				E7E5977D2B19B06200AEA055 /* cn_en.png */,
+				E7E5977E2B19B06200AEA055 /* symbol-qwerty-cn.json */,
+				E7E5977F2B19B06200AEA055 /* entry.png */,
+				E7E597802B19B06200AEA055 /* en_cn.png */,
+				E7E597812B19B06200AEA055 /* symbol-number.json */,
+				E7E597822B19B06200AEA055 /* english-qwerty.json */,
+				E7E597832B19B06200AEA055 /* menu.png */,
+				E7E597842B19B06200AEA055 /* symbol-qwerty-cn-more.json */,
+				E7E597852B19B06200AEA055 /* backspace.png */,
+				E7E597862B19B06200AEA055 /* symbol-qwerty-en.json */,
+				E7E597872B19B06200AEA055 /* language.png */,
+				E7E597882B19B06200AEA055 /* unlock.png */,
+				E7E597892B19B06200AEA055 /* pinyin-qwerty-ios.json */,
+				E7E5978A2B19B06200AEA055 /* shift_upper.png */,
+				E7E5978B2B19B06200AEA055 /* hide.png */,
+			);
+			name = "skin-black";
+			path = "../../../../data/skin/skin-black";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7E5971F2B19A84400AEA055 /* PalmInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7E5972E2B19A84600AEA055 /* Build configuration list for PBXNativeTarget "PalmInput" */;
+			buildPhases = (
+				E7E5971C2B19A84400AEA055 /* Sources */,
+				E7E5971D2B19A84400AEA055 /* Frameworks */,
+				E7E5971E2B19A84400AEA055 /* Resources */,
+				E7E597402B19A91B00AEA055 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7E5973B2B19A91B00AEA055 /* PBXTargetDependency */,
+			);
+			name = PalmInput;
+			productName = PalmInput;
+			productReference = E7E597202B19A84400AEA055 /* PalmInput.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7E597342B19A91B00AEA055 /* PalmKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7E5973D2B19A91B00AEA055 /* Build configuration list for PBXNativeTarget "PalmKeyboard" */;
+			buildPhases = (
+				E7E597312B19A91B00AEA055 /* Sources */,
+				E7E597322B19A91B00AEA055 /* Frameworks */,
+				E7E597332B19A91B00AEA055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PalmKeyboard;
+			productName = PalmKeyboard;
+			productReference = E7E597352B19A91B00AEA055 /* PalmKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7E597182B19A84400AEA055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E7E5971F2B19A84400AEA055 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					E7E597342B19A91B00AEA055 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E7E5971B2B19A84400AEA055 /* Build configuration list for PBXProject "PalmInput" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7E597172B19A84400AEA055;
+			productRefGroup = E7E597212B19A84400AEA055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7E5971F2B19A84400AEA055 /* PalmInput */,
+				E7E597342B19A91B00AEA055 /* PalmKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7E5971E2B19A84400AEA055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E5972B2B19A84600AEA055 /* Preview Assets.xcassets in Resources */,
+				E7E597282B19A84600AEA055 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7E597332B19A91B00AEA055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E597B72B19B06200AEA055 /* symbol-qwerty-cn-more.json in Resources */,
+				E7E597AA2B19B06200AEA055 /* pinyin-qwerty.json in Resources */,
+				E7E597AC2B19B06200AEA055 /* shift_normal.png in Resources */,
+				E7E597B62B19B06200AEA055 /* menu.png in Resources */,
+				E7E597B92B19B06200AEA055 /* symbol-qwerty-en.json in Resources */,
+				E7E597BE2B19B06200AEA055 /* hide.png in Resources */,
+				E7E597A82B19B06200AEA055 /* space.png in Resources */,
+				E7E597B52B19B06200AEA055 /* english-qwerty.json in Resources */,
+				E7E597B02B19B06200AEA055 /* cn_en.png in Resources */,
+				E7E597B12B19B06200AEA055 /* symbol-qwerty-cn.json in Resources */,
+				E7E597BA2B19B06200AEA055 /* language.png in Resources */,
+				E7E597AB2B19B06200AEA055 /* symbol-qwerty-en-more.json in Resources */,
+				E7E597B42B19B06200AEA055 /* symbol-number.json in Resources */,
+				E7E597A92B19B06200AEA055 /* lock.png in Resources */,
+				E7E597A62B19B06200AEA055 /* handwrite.json in Resources */,
+				E7E597BC2B19B06200AEA055 /* pinyin-qwerty-ios.json in Resources */,
+				E7E597AE2B19B06200AEA055 /* shift_locked.png in Resources */,
+				E7E597B82B19B06200AEA055 /* backspace.png in Resources */,
+				E7E597BD2B19B06200AEA055 /* shift_upper.png in Resources */,
+				E7E5976A2B19ABC300AEA055 /* num_keyboard.json in Resources */,
+				E7E597AF2B19B06200AEA055 /* number.json in Resources */,
+				E7E597BB2B19B06200AEA055 /* unlock.png in Resources */,
+				E7E597AD2B19B06200AEA055 /* english-qwerty-ios.json in Resources */,
+				E7E597B22B19B06200AEA055 /* entry.png in Resources */,
+				E7E597A72B19B06200AEA055 /* emoji.png in Resources */,
+				E7E597B32B19B06200AEA055 /* en_cn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7E5971C2B19A84400AEA055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E597262B19A84400AEA055 /* ContentView.swift in Sources */,
+				E7E597242B19A84400AEA055 /* PalmInputApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7E597312B19A91B00AEA055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E597382B19A91B00AEA055 /* KeyboardViewController.swift in Sources */,
+				E7E597422B19A96300AEA055 /* SwiftyJSON.swift in Sources */,
+				E7E597682B19ABC300AEA055 /* PinyinView.swift in Sources */,
+				E7E5976B2B19ABC300AEA055 /* InputBaseView.swift in Sources */,
+				E7E597672B19ABC300AEA055 /* InputResPool.swift in Sources */,
+				E7E597662B19ABC300AEA055 /* HandView.swift in Sources */,
+				E7E597692B19ABC300AEA055 /* InputMgrView.swift in Sources */,
+				E7E597462B19A9EB00AEA055 /* KeyboardSkin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7E5973B2B19A91B00AEA055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7E597342B19A91B00AEA055 /* PalmKeyboard */;
+			targetProxy = E7E5973A2B19A91B00AEA055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E7E5972C2B19A84600AEA055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7E5972D2B19A84600AEA055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7E5972F2B19A84600AEA055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PalmInput/Preview Content\"";
+				DEVELOPMENT_TEAM = 54GJBLMB7W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.palminput.PalmInput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7E597302B19A84600AEA055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PalmInput/Preview Content\"";
+				DEVELOPMENT_TEAM = 54GJBLMB7W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.palminput.PalmInput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7E5973E2B19A91B00AEA055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54GJBLMB7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PalmKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PalmKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "../../../engine/lib/ios/Release-iphoneos";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.palminput.PalmInput.PalmKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "./PalmKeyboard/PalmKeyboard-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7E5973F2B19A91B00AEA055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54GJBLMB7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PalmKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PalmKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "../../../engine/lib/ios/Release-iphoneos";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.palminput.PalmInput.PalmKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "./PalmKeyboard/PalmKeyboard-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7E5971B2B19A84400AEA055 /* Build configuration list for PBXProject "PalmInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E5972C2B19A84600AEA055 /* Debug */,
+				E7E5972D2B19A84600AEA055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7E5972E2B19A84600AEA055 /* Build configuration list for PBXNativeTarget "PalmInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E5972F2B19A84600AEA055 /* Debug */,
+				E7E597302B19A84600AEA055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7E5973D2B19A91B00AEA055 /* Build configuration list for PBXNativeTarget "PalmKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E5973E2B19A91B00AEA055 /* Debug */,
+				E7E5973F2B19A91B00AEA055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7E597182B19A84400AEA055 /* Project object */;
+}
