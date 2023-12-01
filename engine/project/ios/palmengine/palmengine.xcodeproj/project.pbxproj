@@ -25,8 +25,8 @@
 		E774BAB02B1969B5008DE917 /* PYLexEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E774BA9C2B1969B5008DE917 /* PYLexEx.cpp */; };
 		E774BAB12B1969B5008DE917 /* PYKey.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA9D2B1969B5008DE917 /* PYKey.c */; };
 		E774BAB22B1969B5008DE917 /* PYDyn.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BAA02B1969B5008DE917 /* PYDyn.c */; };
-		E774BB392B1977E7008DE917 /* palmengine.m in Sources */ = {isa = PBXBuildFile; fileRef = E774BB372B1977E7008DE917 /* palmengine.m */; };
-		E794BFAB2B197BD000709CCF /* palmengine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E774BB382B1977E7008DE917 /* palmengine.h */; };
+		E7E597102B19A34900AEA055 /* palmengine.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E5970F2B19A34900AEA055 /* palmengine.m */; };
+		E7E597122B19A40C00AEA055 /* palmengine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7E5970E2B19A34900AEA055 /* palmengine.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,7 +36,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				E794BFAB2B197BD000709CCF /* palmengine.h in CopyFiles */,
+				E7E597122B19A40C00AEA055 /* palmengine.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,8 +85,8 @@
 		E774BAB92B196B2D008DE917 /* PDLexCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDLexCore.h; path = ../../../include/PDLexCore.h; sourceTree = "<group>"; };
 		E774BABA2B196B2D008DE917 /* PYDynEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYDynEx.h; path = ../../../include/PYDynEx.h; sourceTree = "<group>"; };
 		E774BABB2B196B2D008DE917 /* PYEngineEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYEngineEx.h; path = ../../../include/PYEngineEx.h; sourceTree = "<group>"; };
-		E774BB372B1977E7008DE917 /* palmengine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = palmengine.m; path = ../../../src/platform/apple/palmengine.m; sourceTree = "<group>"; };
-		E774BB382B1977E7008DE917 /* palmengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = palmengine.h; path = ../../../src/platform/apple/palmengine.h; sourceTree = "<group>"; };
+		E7E5970E2B19A34900AEA055 /* palmengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = palmengine.h; path = palmengine/palmengine.h; sourceTree = "<group>"; };
+		E7E5970F2B19A34900AEA055 /* palmengine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = palmengine.m; path = palmengine/palmengine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,7 @@
 		E774BA682B196960008DE917 = {
 			isa = PBXGroup;
 			children = (
-				E774BB382B1977E7008DE917 /* palmengine.h */,
-				E774BB372B1977E7008DE917 /* palmengine.m */,
+				E7E597112B19A35200AEA055 /* palmengine */,
 				E774BAB62B196A08008DE917 /* include */,
 				E774BAB32B1969CF008DE917 /* src */,
 				E774BA722B196960008DE917 /* Products */,
@@ -182,6 +181,15 @@
 			name = include;
 			sourceTree = "<group>";
 		};
+		E7E597112B19A35200AEA055 /* palmengine */ = {
+			isa = PBXGroup;
+			children = (
+				E7E5970E2B19A34900AEA055 /* palmengine.h */,
+				E7E5970F2B19A34900AEA055 /* palmengine.m */,
+			);
+			name = palmengine;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -256,7 +264,7 @@
 				E774BAAD2B1969B5008DE917 /* PDLexName.c in Sources */,
 				E774BAAE2B1969B5008DE917 /* PYLex.c in Sources */,
 				E774BAA92B1969B5008DE917 /* PDLexCore.c in Sources */,
-				E774BB392B1977E7008DE917 /* palmengine.m in Sources */,
+				E7E597102B19A34900AEA055 /* palmengine.m in Sources */,
 				E774BAA82B1969B5008DE917 /* PYEngineEx.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

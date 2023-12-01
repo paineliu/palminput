@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7D7C5482B199D8D00FDCD0E /* PYEngineEx.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5432B199D8D00FDCD0E /* PYEngineEx.h */; };
+		E7D7C5492B199D8D00FDCD0E /* PYEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5442B199D8D00FDCD0E /* PYEngine.h */; };
+		E7D7C54A2B199D8D00FDCD0E /* PYTypeDef.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5452B199D8D00FDCD0E /* PYTypeDef.h */; };
+		E7D7C54B2B199D8D00FDCD0E /* PDLexCore.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5462B199D8D00FDCD0E /* PDLexCore.h */; };
+		E7D7C54C2B199D8D00FDCD0E /* PYDynEx.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5472B199D8D00FDCD0E /* PYDynEx.h */; };
+		E7D7C5712B199DA100FDCD0E /* PDLexName.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C54D2B199DA000FDCD0E /* PDLexName.c */; };
+		E7D7C5722B199DA100FDCD0E /* PYEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C54E2B199DA000FDCD0E /* PYEngine.h */; };
+		E7D7C5732B199DA100FDCD0E /* PYKey.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C54F2B199DA000FDCD0E /* PYKey.c */; };
+		E7D7C5742B199DA100FDCD0E /* PDLexBeijing.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C5502B199DA000FDCD0E /* PDLexBeijing.c */; };
+		E7D7C5752B199DA100FDCD0E /* PYConst.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5512B199DA000FDCD0E /* PYConst.h */; };
+		E7D7C5762B199DA100FDCD0E /* PYPriDef.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5522B199DA000FDCD0E /* PYPriDef.h */; };
+		E7D7C5772B199DA100FDCD0E /* PDLexBeijing.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5532B199DA000FDCD0E /* PDLexBeijing.h */; };
+		E7D7C5782B199DA100FDCD0E /* PYUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5542B199DA000FDCD0E /* PYUtils.h */; };
+		E7D7C5792B199DA100FDCD0E /* PYHan.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C5552B199DA000FDCD0E /* PYHan.c */; };
+		E7D7C57A2B199DA100FDCD0E /* PYCand.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5562B199DA000FDCD0E /* PYCand.h */; };
+		E7D7C57B2B199DA100FDCD0E /* PDLexName.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5572B199DA000FDCD0E /* PDLexName.h */; };
+		E7D7C57C2B199DA100FDCD0E /* PYFix.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C5582B199DA000FDCD0E /* PYFix.c */; };
+		E7D7C57D2B199DA100FDCD0E /* PYEngine.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C5592B199DA000FDCD0E /* PYEngine.c */; };
+		E7D7C57E2B199DA100FDCD0E /* PYDyn.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C55A2B199DA000FDCD0E /* PYDyn.c */; };
+		E7D7C57F2B199DA100FDCD0E /* PYHanDef.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C55B2B199DA000FDCD0E /* PYHanDef.h */; };
+		E7D7C5802B199DA100FDCD0E /* PYHanData.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C55C2B199DA000FDCD0E /* PYHanData.h */; };
+		E7D7C5812B199DA100FDCD0E /* PYGraph.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C55D2B199DA000FDCD0E /* PYGraph.c */; };
+		E7D7C5822B199DA100FDCD0E /* PYGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C55E2B199DA000FDCD0E /* PYGraph.h */; };
+		E7D7C5832B199DA100FDCD0E /* PYUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C55F2B199DA000FDCD0E /* PYUtils.c */; };
+		E7D7C5842B199DA100FDCD0E /* PYHan.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5602B199DA000FDCD0E /* PYHan.h */; };
+		E7D7C5852B199DA100FDCD0E /* PYDynEx.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C5612B199DA000FDCD0E /* PYDynEx.c */; };
+		E7D7C5862B199DA100FDCD0E /* PDLexCore.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C5622B199DA000FDCD0E /* PDLexCore.c */; };
+		E7D7C5872B199DA100FDCD0E /* PYHanData.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C5632B199DA000FDCD0E /* PYHanData.c */; };
+		E7D7C5882B199DA100FDCD0E /* PYLex.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5642B199DA000FDCD0E /* PYLex.h */; };
+		E7D7C5892B199DA100FDCD0E /* PYCand.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C5652B199DA000FDCD0E /* PYCand.c */; };
+		E7D7C58A2B199DA100FDCD0E /* PYLexEx.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5662B199DA000FDCD0E /* PYLexEx.h */; };
+		E7D7C58B2B199DA100FDCD0E /* PYName.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5672B199DA000FDCD0E /* PYName.h */; };
+		E7D7C58C2B199DA100FDCD0E /* PYDyn.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5682B199DA000FDCD0E /* PYDyn.h */; };
+		E7D7C58D2B199DA100FDCD0E /* PYFix.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5692B199DA000FDCD0E /* PYFix.h */; };
+		E7D7C58E2B199DA100FDCD0E /* PYName.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C56A2B199DA000FDCD0E /* PYName.c */; };
+		E7D7C58F2B199DA100FDCD0E /* PYLex.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C56B2B199DA000FDCD0E /* PYLex.c */; };
+		E7D7C5902B199DA100FDCD0E /* PYLexEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C56C2B199DA100FDCD0E /* PYLexEx.cpp */; };
+		E7D7C5912B199DA100FDCD0E /* PYPredict.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C56D2B199DA100FDCD0E /* PYPredict.c */; };
+		E7D7C5922B199DA100FDCD0E /* PYPredict.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C56E2B199DA100FDCD0E /* PYPredict.h */; };
+		E7D7C5932B199DA100FDCD0E /* PYEngineEx.c in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C56F2B199DA100FDCD0E /* PYEngineEx.c */; };
+		E7D7C5942B199DA100FDCD0E /* PYKey.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7C5702B199DA100FDCD0E /* PYKey.h */; };
+		E7FD4FD32B19A0DA006B899D /* palmengine.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FD4FD12B19A0DA006B899D /* palmengine.m */; };
+		E7FD4FD42B19A0DA006B899D /* palmengine.h in Headers */ = {isa = PBXBuildFile; fileRef = E7FD4FD22B19A0DA006B899D /* palmengine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E7D7C5342B199D3600FDCD0E /* libpalmengine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpalmengine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D7C5432B199D8D00FDCD0E /* PYEngineEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYEngineEx.h; path = ../../../include/PYEngineEx.h; sourceTree = "<group>"; };
+		E7D7C5442B199D8D00FDCD0E /* PYEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYEngine.h; path = ../../../include/PYEngine.h; sourceTree = "<group>"; };
+		E7D7C5452B199D8D00FDCD0E /* PYTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYTypeDef.h; path = ../../../include/PYTypeDef.h; sourceTree = "<group>"; };
+		E7D7C5462B199D8D00FDCD0E /* PDLexCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDLexCore.h; path = ../../../include/PDLexCore.h; sourceTree = "<group>"; };
+		E7D7C5472B199D8D00FDCD0E /* PYDynEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYDynEx.h; path = ../../../include/PYDynEx.h; sourceTree = "<group>"; };
+		E7D7C54D2B199DA000FDCD0E /* PDLexName.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PDLexName.c; path = ../../../src/pinyin/PDLexName.c; sourceTree = "<group>"; };
+		E7D7C54E2B199DA000FDCD0E /* PYEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYEngine.h; path = ../../../src/pinyin/PYEngine.h; sourceTree = "<group>"; };
+		E7D7C54F2B199DA000FDCD0E /* PYKey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYKey.c; path = ../../../src/pinyin/PYKey.c; sourceTree = "<group>"; };
+		E7D7C5502B199DA000FDCD0E /* PDLexBeijing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PDLexBeijing.c; path = ../../../src/pinyin/PDLexBeijing.c; sourceTree = "<group>"; };
+		E7D7C5512B199DA000FDCD0E /* PYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYConst.h; path = ../../../src/pinyin/PYConst.h; sourceTree = "<group>"; };
+		E7D7C5522B199DA000FDCD0E /* PYPriDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPriDef.h; path = ../../../src/pinyin/PYPriDef.h; sourceTree = "<group>"; };
+		E7D7C5532B199DA000FDCD0E /* PDLexBeijing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDLexBeijing.h; path = ../../../src/pinyin/PDLexBeijing.h; sourceTree = "<group>"; };
+		E7D7C5542B199DA000FDCD0E /* PYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYUtils.h; path = ../../../src/pinyin/PYUtils.h; sourceTree = "<group>"; };
+		E7D7C5552B199DA000FDCD0E /* PYHan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYHan.c; path = ../../../src/pinyin/PYHan.c; sourceTree = "<group>"; };
+		E7D7C5562B199DA000FDCD0E /* PYCand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYCand.h; path = ../../../src/pinyin/PYCand.h; sourceTree = "<group>"; };
+		E7D7C5572B199DA000FDCD0E /* PDLexName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDLexName.h; path = ../../../src/pinyin/PDLexName.h; sourceTree = "<group>"; };
+		E7D7C5582B199DA000FDCD0E /* PYFix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYFix.c; path = ../../../src/pinyin/PYFix.c; sourceTree = "<group>"; };
+		E7D7C5592B199DA000FDCD0E /* PYEngine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYEngine.c; path = ../../../src/pinyin/PYEngine.c; sourceTree = "<group>"; };
+		E7D7C55A2B199DA000FDCD0E /* PYDyn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYDyn.c; path = ../../../src/pinyin/PYDyn.c; sourceTree = "<group>"; };
+		E7D7C55B2B199DA000FDCD0E /* PYHanDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYHanDef.h; path = ../../../src/pinyin/PYHanDef.h; sourceTree = "<group>"; };
+		E7D7C55C2B199DA000FDCD0E /* PYHanData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYHanData.h; path = ../../../src/pinyin/PYHanData.h; sourceTree = "<group>"; };
+		E7D7C55D2B199DA000FDCD0E /* PYGraph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYGraph.c; path = ../../../src/pinyin/PYGraph.c; sourceTree = "<group>"; };
+		E7D7C55E2B199DA000FDCD0E /* PYGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYGraph.h; path = ../../../src/pinyin/PYGraph.h; sourceTree = "<group>"; };
+		E7D7C55F2B199DA000FDCD0E /* PYUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYUtils.c; path = ../../../src/pinyin/PYUtils.c; sourceTree = "<group>"; };
+		E7D7C5602B199DA000FDCD0E /* PYHan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYHan.h; path = ../../../src/pinyin/PYHan.h; sourceTree = "<group>"; };
+		E7D7C5612B199DA000FDCD0E /* PYDynEx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYDynEx.c; path = ../../../src/pinyin/PYDynEx.c; sourceTree = "<group>"; };
+		E7D7C5622B199DA000FDCD0E /* PDLexCore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PDLexCore.c; path = ../../../src/pinyin/PDLexCore.c; sourceTree = "<group>"; };
+		E7D7C5632B199DA000FDCD0E /* PYHanData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYHanData.c; path = ../../../src/pinyin/PYHanData.c; sourceTree = "<group>"; };
+		E7D7C5642B199DA000FDCD0E /* PYLex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYLex.h; path = ../../../src/pinyin/PYLex.h; sourceTree = "<group>"; };
+		E7D7C5652B199DA000FDCD0E /* PYCand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYCand.c; path = ../../../src/pinyin/PYCand.c; sourceTree = "<group>"; };
+		E7D7C5662B199DA000FDCD0E /* PYLexEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYLexEx.h; path = ../../../src/pinyin/PYLexEx.h; sourceTree = "<group>"; };
+		E7D7C5672B199DA000FDCD0E /* PYName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYName.h; path = ../../../src/pinyin/PYName.h; sourceTree = "<group>"; };
+		E7D7C5682B199DA000FDCD0E /* PYDyn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYDyn.h; path = ../../../src/pinyin/PYDyn.h; sourceTree = "<group>"; };
+		E7D7C5692B199DA000FDCD0E /* PYFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYFix.h; path = ../../../src/pinyin/PYFix.h; sourceTree = "<group>"; };
+		E7D7C56A2B199DA000FDCD0E /* PYName.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYName.c; path = ../../../src/pinyin/PYName.c; sourceTree = "<group>"; };
+		E7D7C56B2B199DA000FDCD0E /* PYLex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYLex.c; path = ../../../src/pinyin/PYLex.c; sourceTree = "<group>"; };
+		E7D7C56C2B199DA100FDCD0E /* PYLexEx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYLexEx.cpp; path = ../../../src/pinyin/PYLexEx.cpp; sourceTree = "<group>"; };
+		E7D7C56D2B199DA100FDCD0E /* PYPredict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYPredict.c; path = ../../../src/pinyin/PYPredict.c; sourceTree = "<group>"; };
+		E7D7C56E2B199DA100FDCD0E /* PYPredict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPredict.h; path = ../../../src/pinyin/PYPredict.h; sourceTree = "<group>"; };
+		E7D7C56F2B199DA100FDCD0E /* PYEngineEx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYEngineEx.c; path = ../../../src/pinyin/PYEngineEx.c; sourceTree = "<group>"; };
+		E7D7C5702B199DA100FDCD0E /* PYKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYKey.h; path = ../../../src/pinyin/PYKey.h; sourceTree = "<group>"; };
+		E7FD4FD12B19A0DA006B899D /* palmengine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = palmengine.m; sourceTree = "<group>"; };
+		E7FD4FD22B19A0DA006B899D /* palmengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = palmengine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7D7C5322B199D3600FDCD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7D7C52B2B199D3600FDCD0E = {
+			isa = PBXGroup;
+			children = (
+				E7D7C5422B199D5B00FDCD0E /* include */,
+				E7D7C5402B199D4400FDCD0E /* src */,
+				E7D7C5362B199D3600FDCD0E /* palmengine */,
+				E7D7C5352B199D3600FDCD0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7D7C5352B199D3600FDCD0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7D7C5342B199D3600FDCD0E /* libpalmengine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7D7C5362B199D3600FDCD0E /* palmengine */ = {
+			isa = PBXGroup;
+			children = (
+				E7FD4FD22B19A0DA006B899D /* palmengine.h */,
+				E7FD4FD12B19A0DA006B899D /* palmengine.m */,
+			);
+			path = palmengine;
+			sourceTree = "<group>";
+		};
+		E7D7C5402B199D4400FDCD0E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E7D7C5412B199D4D00FDCD0E /* pinyin */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		E7D7C5412B199D4D00FDCD0E /* pinyin */ = {
+			isa = PBXGroup;
+			children = (
+				E7D7C5502B199DA000FDCD0E /* PDLexBeijing.c */,
+				E7D7C5532B199DA000FDCD0E /* PDLexBeijing.h */,
+				E7D7C5622B199DA000FDCD0E /* PDLexCore.c */,
+				E7D7C54D2B199DA000FDCD0E /* PDLexName.c */,
+				E7D7C5572B199DA000FDCD0E /* PDLexName.h */,
+				E7D7C5652B199DA000FDCD0E /* PYCand.c */,
+				E7D7C5562B199DA000FDCD0E /* PYCand.h */,
+				E7D7C5512B199DA000FDCD0E /* PYConst.h */,
+				E7D7C55A2B199DA000FDCD0E /* PYDyn.c */,
+				E7D7C5682B199DA000FDCD0E /* PYDyn.h */,
+				E7D7C5612B199DA000FDCD0E /* PYDynEx.c */,
+				E7D7C5592B199DA000FDCD0E /* PYEngine.c */,
+				E7D7C54E2B199DA000FDCD0E /* PYEngine.h */,
+				E7D7C56F2B199DA100FDCD0E /* PYEngineEx.c */,
+				E7D7C5582B199DA000FDCD0E /* PYFix.c */,
+				E7D7C5692B199DA000FDCD0E /* PYFix.h */,
+				E7D7C55D2B199DA000FDCD0E /* PYGraph.c */,
+				E7D7C55E2B199DA000FDCD0E /* PYGraph.h */,
+				E7D7C5552B199DA000FDCD0E /* PYHan.c */,
+				E7D7C5602B199DA000FDCD0E /* PYHan.h */,
+				E7D7C5632B199DA000FDCD0E /* PYHanData.c */,
+				E7D7C55C2B199DA000FDCD0E /* PYHanData.h */,
+				E7D7C55B2B199DA000FDCD0E /* PYHanDef.h */,
+				E7D7C54F2B199DA000FDCD0E /* PYKey.c */,
+				E7D7C5702B199DA100FDCD0E /* PYKey.h */,
+				E7D7C56B2B199DA000FDCD0E /* PYLex.c */,
+				E7D7C5642B199DA000FDCD0E /* PYLex.h */,
+				E7D7C56C2B199DA100FDCD0E /* PYLexEx.cpp */,
+				E7D7C5662B199DA000FDCD0E /* PYLexEx.h */,
+				E7D7C56A2B199DA000FDCD0E /* PYName.c */,
+				E7D7C5672B199DA000FDCD0E /* PYName.h */,
+				E7D7C56D2B199DA100FDCD0E /* PYPredict.c */,
+				E7D7C56E2B199DA100FDCD0E /* PYPredict.h */,
+				E7D7C5522B199DA000FDCD0E /* PYPriDef.h */,
+				E7D7C55F2B199DA000FDCD0E /* PYUtils.c */,
+				E7D7C5542B199DA000FDCD0E /* PYUtils.h */,
+			);
+			name = pinyin;
+			sourceTree = "<group>";
+		};
+		E7D7C5422B199D5B00FDCD0E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E7D7C5462B199D8D00FDCD0E /* PDLexCore.h */,
+				E7D7C5472B199D8D00FDCD0E /* PYDynEx.h */,
+				E7D7C5442B199D8D00FDCD0E /* PYEngine.h */,
+				E7D7C5432B199D8D00FDCD0E /* PYEngineEx.h */,
+				E7D7C5452B199D8D00FDCD0E /* PYTypeDef.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E7D7C5302B199D3600FDCD0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FD4FD42B19A0DA006B899D /* palmengine.h in Headers */,
+				E7D7C54C2B199D8D00FDCD0E /* PYDynEx.h in Headers */,
+				E7D7C5772B199DA100FDCD0E /* PDLexBeijing.h in Headers */,
+				E7D7C58A2B199DA100FDCD0E /* PYLexEx.h in Headers */,
+				E7D7C57B2B199DA100FDCD0E /* PDLexName.h in Headers */,
+				E7D7C5492B199D8D00FDCD0E /* PYEngine.h in Headers */,
+				E7D7C58D2B199DA100FDCD0E /* PYFix.h in Headers */,
+				E7D7C5482B199D8D00FDCD0E /* PYEngineEx.h in Headers */,
+				E7D7C58C2B199DA100FDCD0E /* PYDyn.h in Headers */,
+				E7D7C5922B199DA100FDCD0E /* PYPredict.h in Headers */,
+				E7D7C57A2B199DA100FDCD0E /* PYCand.h in Headers */,
+				E7D7C58B2B199DA100FDCD0E /* PYName.h in Headers */,
+				E7D7C5842B199DA100FDCD0E /* PYHan.h in Headers */,
+				E7D7C5802B199DA100FDCD0E /* PYHanData.h in Headers */,
+				E7D7C5882B199DA100FDCD0E /* PYLex.h in Headers */,
+				E7D7C5942B199DA100FDCD0E /* PYKey.h in Headers */,
+				E7D7C54B2B199D8D00FDCD0E /* PDLexCore.h in Headers */,
+				E7D7C54A2B199D8D00FDCD0E /* PYTypeDef.h in Headers */,
+				E7D7C5822B199DA100FDCD0E /* PYGraph.h in Headers */,
+				E7D7C5782B199DA100FDCD0E /* PYUtils.h in Headers */,
+				E7D7C5722B199DA100FDCD0E /* PYEngine.h in Headers */,
+				E7D7C5762B199DA100FDCD0E /* PYPriDef.h in Headers */,
+				E7D7C5752B199DA100FDCD0E /* PYConst.h in Headers */,
+				E7D7C57F2B199DA100FDCD0E /* PYHanDef.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E7D7C5332B199D3600FDCD0E /* palmengine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D7C53D2B199D3600FDCD0E /* Build configuration list for PBXNativeTarget "palmengine" */;
+			buildPhases = (
+				E7D7C5302B199D3600FDCD0E /* Headers */,
+				E7D7C5312B199D3600FDCD0E /* Sources */,
+				E7D7C5322B199D3600FDCD0E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = palmengine;
+			productName = palmengine;
+			productReference = E7D7C5342B199D3600FDCD0E /* libpalmengine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7D7C52C2B199D3600FDCD0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E7D7C5332B199D3600FDCD0E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E7D7C52F2B199D3600FDCD0E /* Build configuration list for PBXProject "palmengine" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7D7C52B2B199D3600FDCD0E;
+			productRefGroup = E7D7C5352B199D3600FDCD0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7D7C5332B199D3600FDCD0E /* palmengine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7D7C5312B199D3600FDCD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D7C57C2B199DA100FDCD0E /* PYFix.c in Sources */,
+				E7D7C5742B199DA100FDCD0E /* PDLexBeijing.c in Sources */,
+				E7D7C5892B199DA100FDCD0E /* PYCand.c in Sources */,
+				E7D7C5732B199DA100FDCD0E /* PYKey.c in Sources */,
+				E7D7C5902B199DA100FDCD0E /* PYLexEx.cpp in Sources */,
+				E7D7C5812B199DA100FDCD0E /* PYGraph.c in Sources */,
+				E7D7C5832B199DA100FDCD0E /* PYUtils.c in Sources */,
+				E7D7C5712B199DA100FDCD0E /* PDLexName.c in Sources */,
+				E7D7C57E2B199DA100FDCD0E /* PYDyn.c in Sources */,
+				E7D7C58E2B199DA100FDCD0E /* PYName.c in Sources */,
+				E7D7C5792B199DA100FDCD0E /* PYHan.c in Sources */,
+				E7D7C58F2B199DA100FDCD0E /* PYLex.c in Sources */,
+				E7D7C57D2B199DA100FDCD0E /* PYEngine.c in Sources */,
+				E7D7C5862B199DA100FDCD0E /* PDLexCore.c in Sources */,
+				E7D7C5872B199DA100FDCD0E /* PYHanData.c in Sources */,
+				E7D7C5912B199DA100FDCD0E /* PYPredict.c in Sources */,
+				E7D7C5932B199DA100FDCD0E /* PYEngineEx.c in Sources */,
+				E7FD4FD32B19A0DA006B899D /* palmengine.m in Sources */,
+				E7D7C5852B199DA100FDCD0E /* PYDynEx.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E7D7C53B2B199D3600FDCD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E7D7C53C2B199D3600FDCD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E7D7C53E2B199D3600FDCD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E7D7C53F2B199D3600FDCD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7D7C52F2B199D3600FDCD0E /* Build configuration list for PBXProject "palmengine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D7C53B2B199D3600FDCD0E /* Debug */,
+				E7D7C53C2B199D3600FDCD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D7C53D2B199D3600FDCD0E /* Build configuration list for PBXNativeTarget "palmengine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D7C53E2B199D3600FDCD0E /* Debug */,
+				E7D7C53F2B199D3600FDCD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7D7C52C2B199D3600FDCD0E /* Project object */;
+}

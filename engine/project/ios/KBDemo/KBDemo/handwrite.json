@@ -1,0 +1,217 @@
+{
+  "origRect": {
+    "left": 0,
+    "top": 0,
+    "right": 720,
+    "bottom": 504
+  },
+  "background": "background.png",
+  "buttonStyles": [
+    {
+      "id": "BTN_NORMAL",
+      "imgPrefix": "btn_",
+      "bmPadding": {
+        "left": 5,
+        "top": 5,
+        "right": 10,
+        "bottom": 10
+      },
+      "bpPadding": {
+        "left": 5,
+        "top": 5,
+        "right": 10,
+        "bottom": 10
+      },
+      "bgColor": {
+        "color": 0,
+        "alpha": 0
+      },
+      "bmColor": {
+        "color": 0,
+        "alpha": 0
+      },
+      "bpColor": {
+        "color": 12303291,
+        "alpha": 0
+      },
+      "bmBorder": {
+        "color": 16777215,
+        "alpha": 0,
+        "width": 2,
+        "rx": 5,
+        "ry": 5
+      },
+      "bpBorder": {
+        "color": 16777215,
+        "alpha": 0,
+        "width": 2,
+        "rx": 5,
+        "ry": 5
+      },
+      "bmShadow": {
+        "color": 255,
+        "alpha": 0,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "bpShadow": {
+        "color": 255,
+        "alpha": 0,
+        "dx": 2,
+        "dy": 2,
+        "radius": 2
+      },
+      "lmFont": {
+        "size": 36,
+        "color": 16777215,
+        "alpha": 0
+      },
+      "lpFont": {
+        "size": 36,
+        "color": 16777215,
+        "alpha": 0
+      }
+    },
+    {
+      "id": "BTN_NORMAL",
+      "imgPrefix": "btn_",
+      "bmPadding": {
+        "left": 5,
+        "top": 5,
+        "right": 10,
+        "bottom": 10
+      },
+      "bpPadding": {
+        "left": 5,
+        "top": 5,
+        "right": 10,
+        "bottom": 10
+      },
+      "bgColor": {
+        "color": 0,
+        "alpha": 0
+      },
+      "bmColor": {
+        "color": 0,
+        "alpha": 0
+      },
+      "bpColor": {
+        "color": 12303291,
+        "alpha": 0
+      },
+      "bmBorder": {
+        "color": 0,
+        "alpha": 0,
+        "width": 2,
+        "rx": 5,
+        "ry": 5
+      },
+      "bpBorder": {
+        "color": 0,
+        "alpha": 0,
+        "width": 2,
+        "rx": 5,
+        "ry": 5
+      },
+      "bmShadow": {
+        "color": 255,
+        "alpha": 0,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "bpShadow": {
+        "color": 255,
+        "alpha": 0,
+        "dx": 2,
+        "dy": 2,
+        "radius": 2
+      },
+      "lmFont": {
+        "size": 36,
+        "color": 16777215,
+        "alpha": 0
+      },
+      "lpFont": {
+        "size": 36,
+        "color": 16777215,
+        "alpha": 0
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "id": "VK_BACKSPACE",
+      "label": "&backspace;",
+      "origRect": {
+        "left": 620,
+        "top": 0,
+        "right": 720,
+        "bottom": 100
+      },
+      "touchRect": {
+        "left": 600,
+        "top": 0,
+        "right": 720,
+        "bottom": 100
+      },
+      "styleId": 1
+    },
+    {
+      "id": "VK_SYMBOL_CN",
+      "label": "123",
+      "origRect": {
+        "left": 5,
+        "top": 400,
+        "right": 105,
+        "bottom": 500
+      },
+      "styleId": 0
+    },
+    {
+      "id": "VK_LANGUAGE",
+      "label": "&language;",
+      "origRect": {
+        "left": 105,
+        "top": 400,
+        "right": 205,
+        "bottom": 500
+      },
+      "styleId": 0
+    },
+    {
+      "id": "VK_SPACE",
+      "label": "&space;",
+      "origRect": {
+        "left": 205,
+        "top": 400,
+        "right": 515,
+        "bottom": 500
+      },
+      "styleId": 0
+    },
+    {
+      "id": "VK_ENGLISH",
+      "label": "\u82f1",
+      "origRect": {
+        "left": 515,
+        "top": 400,
+        "right": 615,
+        "bottom": 500
+      },
+      "styleId": 0
+    },
+    {
+      "id": "VK_DONE",
+      "label": "&done;",
+      "origRect": {
+        "left": 615,
+        "top": 400,
+        "right": 715,
+        "bottom": 500
+      },
+      "styleId": 0
+    }
+  ]
+}
