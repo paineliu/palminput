@@ -2,10 +2,10 @@
 #import "PYInputPreference.h"
 #import "PYInputCandWindow.h"
 #import "PYInputTipsWindow.h"
-#import "PYProvider.h"
+#import "palmengine.h"
 #import "PYInputSymbol.h"
 
-extern PYProvider           *g_provider;
+extern PalmEngine           *g_provider;
 extern PYInputCandWindow    *g_cand;
 extern PYInputTipsWindow    *g_tips;
 extern PYInputSymbol        *g_symbol;

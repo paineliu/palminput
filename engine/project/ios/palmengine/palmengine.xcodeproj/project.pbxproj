@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E774BAA12B1969B5008DE917 /* PYEngine.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA7E2B1969B3008DE917 /* PYEngine.c */; };
+		E774BAA22B1969B5008DE917 /* PYHan.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA7F2B1969B3008DE917 /* PYHan.c */; };
+		E774BAA32B1969B5008DE917 /* PDLexBeijing.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA802B1969B3008DE917 /* PDLexBeijing.c */; };
+		E774BAA42B1969B5008DE917 /* PYFix.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA832B1969B3008DE917 /* PYFix.c */; };
+		E774BAA52B1969B5008DE917 /* PYPredict.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA842B1969B3008DE917 /* PYPredict.c */; };
+		E774BAA62B1969B5008DE917 /* PYGraph.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA872B1969B3008DE917 /* PYGraph.c */; };
+		E774BAA72B1969B5008DE917 /* PYUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA892B1969B3008DE917 /* PYUtils.c */; };
+		E774BAA82B1969B5008DE917 /* PYEngineEx.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA8A2B1969B3008DE917 /* PYEngineEx.c */; };
+		E774BAA92B1969B5008DE917 /* PDLexCore.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA8B2B1969B3008DE917 /* PDLexCore.c */; };
+		E774BAAA2B1969B5008DE917 /* PYName.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA8D2B1969B4008DE917 /* PYName.c */; };
+		E774BAAB2B1969B5008DE917 /* PYCand.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA8E2B1969B4008DE917 /* PYCand.c */; };
+		E774BAAC2B1969B5008DE917 /* PYDynEx.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA912B1969B4008DE917 /* PYDynEx.c */; };
+		E774BAAD2B1969B5008DE917 /* PDLexName.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA972B1969B4008DE917 /* PDLexName.c */; };
+		E774BAAE2B1969B5008DE917 /* PYLex.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA9A2B1969B4008DE917 /* PYLex.c */; };
+		E774BAAF2B1969B5008DE917 /* PYHanData.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA9B2B1969B4008DE917 /* PYHanData.c */; };
+		E774BAB02B1969B5008DE917 /* PYLexEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E774BA9C2B1969B5008DE917 /* PYLexEx.cpp */; };
+		E774BAB12B1969B5008DE917 /* PYKey.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BA9D2B1969B5008DE917 /* PYKey.c */; };
+		E774BAB22B1969B5008DE917 /* PYDyn.c in Sources */ = {isa = PBXBuildFile; fileRef = E774BAA02B1969B5008DE917 /* PYDyn.c */; };
+		E774BB392B1977E7008DE917 /* palmengine.m in Sources */ = {isa = PBXBuildFile; fileRef = E774BB372B1977E7008DE917 /* palmengine.m */; };
+		E794BFAB2B197BD000709CCF /* palmengine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E774BB382B1977E7008DE917 /* palmengine.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E774BA6F2B196960008DE917 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				E794BFAB2B197BD000709CCF /* palmengine.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E774BA712B196960008DE917 /* libpalmengine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpalmengine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E774BA7D2B1969B3008DE917 /* PYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYUtils.h; path = ../../../src/pinyin/PYUtils.h; sourceTree = "<group>"; };
+		E774BA7E2B1969B3008DE917 /* PYEngine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYEngine.c; path = ../../../src/pinyin/PYEngine.c; sourceTree = "<group>"; };
+		E774BA7F2B1969B3008DE917 /* PYHan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYHan.c; path = ../../../src/pinyin/PYHan.c; sourceTree = "<group>"; };
+		E774BA802B1969B3008DE917 /* PDLexBeijing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PDLexBeijing.c; path = ../../../src/pinyin/PDLexBeijing.c; sourceTree = "<group>"; };
+		E774BA812B1969B3008DE917 /* PYDyn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYDyn.h; path = ../../../src/pinyin/PYDyn.h; sourceTree = "<group>"; };
+		E774BA822B1969B3008DE917 /* PYLex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYLex.h; path = ../../../src/pinyin/PYLex.h; sourceTree = "<group>"; };
+		E774BA832B1969B3008DE917 /* PYFix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYFix.c; path = ../../../src/pinyin/PYFix.c; sourceTree = "<group>"; };
+		E774BA842B1969B3008DE917 /* PYPredict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYPredict.c; path = ../../../src/pinyin/PYPredict.c; sourceTree = "<group>"; };
+		E774BA852B1969B3008DE917 /* PDLexBeijing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDLexBeijing.h; path = ../../../src/pinyin/PDLexBeijing.h; sourceTree = "<group>"; };
+		E774BA862B1969B3008DE917 /* PYLexEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYLexEx.h; path = ../../../src/pinyin/PYLexEx.h; sourceTree = "<group>"; };
+		E774BA872B1969B3008DE917 /* PYGraph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYGraph.c; path = ../../../src/pinyin/PYGraph.c; sourceTree = "<group>"; };
+		E774BA882B1969B3008DE917 /* PYPriDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPriDef.h; path = ../../../src/pinyin/PYPriDef.h; sourceTree = "<group>"; };
+		E774BA892B1969B3008DE917 /* PYUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYUtils.c; path = ../../../src/pinyin/PYUtils.c; sourceTree = "<group>"; };
+		E774BA8A2B1969B3008DE917 /* PYEngineEx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYEngineEx.c; path = ../../../src/pinyin/PYEngineEx.c; sourceTree = "<group>"; };
+		E774BA8B2B1969B3008DE917 /* PDLexCore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PDLexCore.c; path = ../../../src/pinyin/PDLexCore.c; sourceTree = "<group>"; };
+		E774BA8C2B1969B3008DE917 /* PYCand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYCand.h; path = ../../../src/pinyin/PYCand.h; sourceTree = "<group>"; };
+		E774BA8D2B1969B4008DE917 /* PYName.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYName.c; path = ../../../src/pinyin/PYName.c; sourceTree = "<group>"; };
+		E774BA8E2B1969B4008DE917 /* PYCand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYCand.c; path = ../../../src/pinyin/PYCand.c; sourceTree = "<group>"; };
+		E774BA8F2B1969B4008DE917 /* PYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYConst.h; path = ../../../src/pinyin/PYConst.h; sourceTree = "<group>"; };
+		E774BA902B1969B4008DE917 /* PYGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYGraph.h; path = ../../../src/pinyin/PYGraph.h; sourceTree = "<group>"; };
+		E774BA912B1969B4008DE917 /* PYDynEx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYDynEx.c; path = ../../../src/pinyin/PYDynEx.c; sourceTree = "<group>"; };
+		E774BA922B1969B4008DE917 /* PYHanData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYHanData.h; path = ../../../src/pinyin/PYHanData.h; sourceTree = "<group>"; };
+		E774BA932B1969B4008DE917 /* PYHan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYHan.h; path = ../../../src/pinyin/PYHan.h; sourceTree = "<group>"; };
+		E774BA942B1969B4008DE917 /* PYFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYFix.h; path = ../../../src/pinyin/PYFix.h; sourceTree = "<group>"; };
+		E774BA952B1969B4008DE917 /* PYPredict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPredict.h; path = ../../../src/pinyin/PYPredict.h; sourceTree = "<group>"; };
+		E774BA962B1969B4008DE917 /* PYHanDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYHanDef.h; path = ../../../src/pinyin/PYHanDef.h; sourceTree = "<group>"; };
+		E774BA972B1969B4008DE917 /* PDLexName.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PDLexName.c; path = ../../../src/pinyin/PDLexName.c; sourceTree = "<group>"; };
+		E774BA982B1969B4008DE917 /* PDLexName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDLexName.h; path = ../../../src/pinyin/PDLexName.h; sourceTree = "<group>"; };
+		E774BA992B1969B4008DE917 /* PYName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYName.h; path = ../../../src/pinyin/PYName.h; sourceTree = "<group>"; };
+		E774BA9A2B1969B4008DE917 /* PYLex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYLex.c; path = ../../../src/pinyin/PYLex.c; sourceTree = "<group>"; };
+		E774BA9B2B1969B4008DE917 /* PYHanData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYHanData.c; path = ../../../src/pinyin/PYHanData.c; sourceTree = "<group>"; };
+		E774BA9C2B1969B5008DE917 /* PYLexEx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYLexEx.cpp; path = ../../../src/pinyin/PYLexEx.cpp; sourceTree = "<group>"; };
+		E774BA9D2B1969B5008DE917 /* PYKey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYKey.c; path = ../../../src/pinyin/PYKey.c; sourceTree = "<group>"; };
+		E774BA9E2B1969B5008DE917 /* PYKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYKey.h; path = ../../../src/pinyin/PYKey.h; sourceTree = "<group>"; };
+		E774BA9F2B1969B5008DE917 /* PYEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYEngine.h; path = ../../../src/pinyin/PYEngine.h; sourceTree = "<group>"; };
+		E774BAA02B1969B5008DE917 /* PYDyn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PYDyn.c; path = ../../../src/pinyin/PYDyn.c; sourceTree = "<group>"; };
+		E774BAB72B196B2D008DE917 /* PYTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYTypeDef.h; path = ../../../include/PYTypeDef.h; sourceTree = "<group>"; };
+		E774BAB82B196B2D008DE917 /* PYEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYEngine.h; path = ../../../include/PYEngine.h; sourceTree = "<group>"; };
+		E774BAB92B196B2D008DE917 /* PDLexCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDLexCore.h; path = ../../../include/PDLexCore.h; sourceTree = "<group>"; };
+		E774BABA2B196B2D008DE917 /* PYDynEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYDynEx.h; path = ../../../include/PYDynEx.h; sourceTree = "<group>"; };
+		E774BABB2B196B2D008DE917 /* PYEngineEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYEngineEx.h; path = ../../../include/PYEngineEx.h; sourceTree = "<group>"; };
+		E774BB372B1977E7008DE917 /* palmengine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = palmengine.m; path = ../../../src/platform/apple/palmengine.m; sourceTree = "<group>"; };
+		E774BB382B1977E7008DE917 /* palmengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = palmengine.h; path = ../../../src/platform/apple/palmengine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E774BA6E2B196960008DE917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E774BA682B196960008DE917 = {
+			isa = PBXGroup;
+			children = (
+				E774BB382B1977E7008DE917 /* palmengine.h */,
+				E774BB372B1977E7008DE917 /* palmengine.m */,
+				E774BAB62B196A08008DE917 /* include */,
+				E774BAB32B1969CF008DE917 /* src */,
+				E774BA722B196960008DE917 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E774BA722B196960008DE917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E774BA712B196960008DE917 /* libpalmengine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E774BAB32B1969CF008DE917 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E774BAB52B1969E4008DE917 /* pinyin */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		E774BAB52B1969E4008DE917 /* pinyin */ = {
+			isa = PBXGroup;
+			children = (
+				E774BA802B1969B3008DE917 /* PDLexBeijing.c */,
+				E774BA852B1969B3008DE917 /* PDLexBeijing.h */,
+				E774BA8B2B1969B3008DE917 /* PDLexCore.c */,
+				E774BA972B1969B4008DE917 /* PDLexName.c */,
+				E774BA982B1969B4008DE917 /* PDLexName.h */,
+				E774BA8E2B1969B4008DE917 /* PYCand.c */,
+				E774BA8C2B1969B3008DE917 /* PYCand.h */,
+				E774BA8F2B1969B4008DE917 /* PYConst.h */,
+				E774BAA02B1969B5008DE917 /* PYDyn.c */,
+				E774BA812B1969B3008DE917 /* PYDyn.h */,
+				E774BA912B1969B4008DE917 /* PYDynEx.c */,
+				E774BA7E2B1969B3008DE917 /* PYEngine.c */,
+				E774BA9F2B1969B5008DE917 /* PYEngine.h */,
+				E774BA8A2B1969B3008DE917 /* PYEngineEx.c */,
+				E774BA832B1969B3008DE917 /* PYFix.c */,
+				E774BA942B1969B4008DE917 /* PYFix.h */,
+				E774BA872B1969B3008DE917 /* PYGraph.c */,
+				E774BA902B1969B4008DE917 /* PYGraph.h */,
+				E774BA7F2B1969B3008DE917 /* PYHan.c */,
+				E774BA932B1969B4008DE917 /* PYHan.h */,
+				E774BA9B2B1969B4008DE917 /* PYHanData.c */,
+				E774BA922B1969B4008DE917 /* PYHanData.h */,
+				E774BA962B1969B4008DE917 /* PYHanDef.h */,
+				E774BA9D2B1969B5008DE917 /* PYKey.c */,
+				E774BA9E2B1969B5008DE917 /* PYKey.h */,
+				E774BA9A2B1969B4008DE917 /* PYLex.c */,
+				E774BA822B1969B3008DE917 /* PYLex.h */,
+				E774BA9C2B1969B5008DE917 /* PYLexEx.cpp */,
+				E774BA862B1969B3008DE917 /* PYLexEx.h */,
+				E774BA8D2B1969B4008DE917 /* PYName.c */,
+				E774BA992B1969B4008DE917 /* PYName.h */,
+				E774BA842B1969B3008DE917 /* PYPredict.c */,
+				E774BA952B1969B4008DE917 /* PYPredict.h */,
+				E774BA882B1969B3008DE917 /* PYPriDef.h */,
+				E774BA892B1969B3008DE917 /* PYUtils.c */,
+				E774BA7D2B1969B3008DE917 /* PYUtils.h */,
+			);
+			name = pinyin;
+			sourceTree = "<group>";
+		};
+		E774BAB62B196A08008DE917 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E774BAB92B196B2D008DE917 /* PDLexCore.h */,
+				E774BABA2B196B2D008DE917 /* PYDynEx.h */,
+				E774BAB82B196B2D008DE917 /* PYEngine.h */,
+				E774BABB2B196B2D008DE917 /* PYEngineEx.h */,
+				E774BAB72B196B2D008DE917 /* PYTypeDef.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E774BA702B196960008DE917 /* palmengine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E774BA7A2B196960008DE917 /* Build configuration list for PBXNativeTarget "palmengine" */;
+			buildPhases = (
+				E774BA6D2B196960008DE917 /* Sources */,
+				E774BA6E2B196960008DE917 /* Frameworks */,
+				E774BA6F2B196960008DE917 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = palmengine;
+			productName = palmengine;
+			productReference = E774BA712B196960008DE917 /* libpalmengine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E774BA692B196960008DE917 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E774BA702B196960008DE917 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E774BA6C2B196960008DE917 /* Build configuration list for PBXProject "palmengine" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E774BA682B196960008DE917;
+			productRefGroup = E774BA722B196960008DE917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E774BA702B196960008DE917 /* palmengine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E774BA6D2B196960008DE917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E774BAA32B1969B5008DE917 /* PDLexBeijing.c in Sources */,
+				E774BAA42B1969B5008DE917 /* PYFix.c in Sources */,
+				E774BAAC2B1969B5008DE917 /* PYDynEx.c in Sources */,
+				E774BAA22B1969B5008DE917 /* PYHan.c in Sources */,
+				E774BAB02B1969B5008DE917 /* PYLexEx.cpp in Sources */,
+				E774BAA62B1969B5008DE917 /* PYGraph.c in Sources */,
+				E774BAAB2B1969B5008DE917 /* PYCand.c in Sources */,
+				E774BAAF2B1969B5008DE917 /* PYHanData.c in Sources */,
+				E774BAAA2B1969B5008DE917 /* PYName.c in Sources */,
+				E774BAB22B1969B5008DE917 /* PYDyn.c in Sources */,
+				E774BAA72B1969B5008DE917 /* PYUtils.c in Sources */,
+				E774BAA12B1969B5008DE917 /* PYEngine.c in Sources */,
+				E774BAA52B1969B5008DE917 /* PYPredict.c in Sources */,
+				E774BAB12B1969B5008DE917 /* PYKey.c in Sources */,
+				E774BAAD2B1969B5008DE917 /* PDLexName.c in Sources */,
+				E774BAAE2B1969B5008DE917 /* PYLex.c in Sources */,
+				E774BAA92B1969B5008DE917 /* PDLexCore.c in Sources */,
+				E774BB392B1977E7008DE917 /* palmengine.m in Sources */,
+				E774BAA82B1969B5008DE917 /* PYEngineEx.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E774BA782B196960008DE917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E774BA792B196960008DE917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E774BA7B2B196960008DE917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E774BA7C2B196960008DE917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E774BA6C2B196960008DE917 /* Build configuration list for PBXProject "palmengine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E774BA782B196960008DE917 /* Debug */,
+				E774BA792B196960008DE917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E774BA7A2B196960008DE917 /* Build configuration list for PBXNativeTarget "palmengine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E774BA7B2B196960008DE917 /* Debug */,
+				E774BA7C2B196960008DE917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E774BA692B196960008DE917 /* Project object */;
+}

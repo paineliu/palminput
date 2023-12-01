@@ -1,11 +1,11 @@
 #import "PYInputController.h"
-#import "PYProvider.h"
+#import "palmengine.h"
 #import "PYInputCandWindow.h"
 #import "PYInputTipsWindow.h"
 #import "PYInputPubDef.h"
 #import "PYInputNotification.h"
 
-extern PYProvider              *g_provider;
+extern PalmEngine              *g_provider;
 extern PYInputCandWindow         *g_cand;
 extern PYInputTipsWindow         *g_tips;
 extern PYInputSymbol             *g_symbol;

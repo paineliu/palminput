@@ -1,6 +1,6 @@
 #import <Cocoa/Cocoa.h>
 #import <InputMethodKit/InputMethodKit.h>
-#import "PYProvider.h"
+#import "palmengine.h"
 #import "PYInputPubDef.h"
 #import "PYInputCandWindow.h"
 #import "PYInputTipsWindow.h"
@@ -10,7 +10,7 @@
 PYInputCandWindow*       g_cand = nil;
 PYInputTipsWindow*       g_tips = nil;
 PYInputSymbol*           g_symbol = nil;
-PYProvider*              g_provider = nil;
+PalmEngine*              g_provider = nil;
 PYInputOption*           g_option = nil;
 int                      g_prefFlags = PY_NOTIFICATION_PREFERENCE_CHANGED_VALUE_NONE;
 
@@ -22,7 +22,7 @@ int main(int argc, const char * argv[])
     
     // create global object
     g_option = [[PYInputOption alloc] init];
-    g_provider = [[PYProvider alloc] init];
+    g_provider = [[PalmEngine alloc] init];
     g_symbol = [[PYInputSymbol alloc] init];
 
     [g_option loadAll];
