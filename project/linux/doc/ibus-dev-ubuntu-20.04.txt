@@ -1,0 +1,11 @@
+sudo apt install libibus-1.0-dev
+sudo apt install libenchant-dev
+sudo apt install g++
+sudo apt install cmake
+
+mkdir build
+cd build
+cmake ..
+make
+cpack
+
