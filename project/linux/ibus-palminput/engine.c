@@ -123,24 +123,28 @@ ibus_enchant_engine_update_lookup_table (IBusEnchantEngine *enchant)
 
     ibus_lookup_table_clear (enchant->table);
     
-    sugs = enchant_dict_suggest (dict,
-                                 enchant->preedit->str,
-                                 enchant->preedit->len,
-                                 &n_sug);
+    // sugs = enchant_dict_suggest (dict,
+    //                              enchant->preedit->str,
+    //                              enchant->preedit->len,
+    //                              &n_sug);
 
-    if (sugs == NULL || n_sug == 0) {
-        ibus_engine_hide_lookup_table ((IBusEngine *) enchant);
-        return;
-    }
+    // if (sugs == NULL || n_sug == 0) {
+    //     ibus_engine_hide_lookup_table ((IBusEngine *) enchant);
+    //     return;
+    // }
 
+    char szPredict[64];
+    strcpy(szPredict, enchant->preedit->str);
+    n_sug = enchant->preedit->len;
     for (i = 0; i < n_sug; i++) {
-        ibus_lookup_table_append_candidate (enchant->table, ibus_text_new_from_string (sugs[i]));
+        szPredict[n_sug - i] = 0;
+        ibus_lookup_table_append_candidate (enchant->table, ibus_text_new_from_string (szPredict));
     }
 
     ibus_engine_update_lookup_table ((IBusEngine *) enchant, enchant->table, TRUE);
 
-    if (sugs)
-        enchant_dict_free_suggestions (dict, sugs);
+    // if (sugs)
+    //     enchant_dict_free_suggestions (dict, sugs);
 }
 
 static void
