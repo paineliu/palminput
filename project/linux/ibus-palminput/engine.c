@@ -1,6 +1,6 @@
 /* vim:set et sts=4: */
 
-#include <enchant.h>
+// #include <enchant.h>
 #include "engine.h"
 
 typedef struct _IBusEnchantEngine IBusEnchantEngine;
@@ -62,8 +62,8 @@ static void ibus_enchant_engine_commit_string
                                              const gchar            *string);
 static void ibus_enchant_engine_update      (IBusEnchantEngine      *enchant);
 
-static EnchantBroker *broker = NULL;
-static EnchantDict *dict = NULL;
+// static EnchantBroker *broker = NULL;
+// static EnchantDict *dict = NULL;
 
 G_DEFINE_TYPE (IBusEnchantEngine, ibus_enchant_engine, IBUS_TYPE_ENGINE)
 
@@ -81,10 +81,10 @@ ibus_enchant_engine_class_init (IBusEnchantEngineClass *klass)
 static void
 ibus_enchant_engine_init (IBusEnchantEngine *enchant)
 {
-    if (broker == NULL) {
-        broker = enchant_broker_init ();
-        dict = enchant_broker_request_dict (broker, "en");
-    }
+    // if (broker == NULL) {
+    //     broker = enchant_broker_init ();
+    //     dict = enchant_broker_request_dict (broker, "en");
+    // }
 
     enchant->preedit = g_string_new ("");
     enchant->cursor_pos = 0;
@@ -160,7 +160,7 @@ ibus_enchant_engine_update_preedit (IBusEnchantEngine *enchant)
                            ibus_attr_underline_new (IBUS_ATTR_UNDERLINE_SINGLE, 0, enchant->preedit->len));
 
     if (enchant->preedit->len > 0) {
-        retval = enchant_dict_check (dict, enchant->preedit->str, enchant->preedit->len);
+        retval = 0; // enchant_dict_check (dict, enchant->preedit->str, enchant->preedit->len);
         if (retval != 0) {
             ibus_attr_list_append (text->attrs,
                                ibus_attr_foreground_new (0xff0000, 0, enchant->preedit->len));
@@ -204,7 +204,8 @@ static void
 ibus_enchant_engine_update (IBusEnchantEngine *enchant)
 {
     ibus_enchant_engine_update_preedit (enchant);
-    ibus_engine_hide_lookup_table ((IBusEngine *)enchant);
+    ibus_enchant_engine_update_lookup_table (enchant);
+    // ibus_engine_hide_lookup_table ((IBusEngine *)enchant);
 }
 
 #define is_alpha(c) (((c) >= IBUS_a && (c) <= IBUS_z) || ((c) >= IBUS_A && (c) <= IBUS_Z))
@@ -317,7 +318,8 @@ ibus_enchant_engine_process_key_event (IBusEngine *engine,
 
         enchant->cursor_pos ++;
         ibus_enchant_engine_update (enchant);
-        
+        // ibus_enchant_engine_update_lookup_table (enchant);
+
         return TRUE;
     }
 
