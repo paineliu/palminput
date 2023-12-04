@@ -148,9 +148,9 @@ public class InputMgrView extends ViewGroup implements IOperater {
         String SHARED_PREFERENCES_NAME = "FlutterSharedPreferences";
         SharedPreferences sp = context.getSharedPreferences(SHARED_PREFERENCES_NAME, Context.MODE_PRIVATE);
         
-        if (!mSkinPath.equals(sp.getString("flutter.skin_name","skin-white")))
+        if (!mSkinPath.equals(sp.getString("flutter.skin_name","skin-black")))
         {
-            mSkinPath = sp.getString("flutter.skin_name","skin-white");
+            mSkinPath = sp.getString("flutter.skin_name","skin-black");
             mResPool = new SkinResPool(context, mSkinPath, mInputService.getKeyboardWidth());
 
             mSymbolViewNumber = new SymbolView(context);
