@@ -3,7 +3,7 @@
 <component>
 	<name>org.freedesktop.IBus.Enchant</name>
 	<description>Enchant Component</description>
-	<exec>/usr/local/libexec/ibus-engine-enchant --ibus</exec>
+	<exec>/usr/libexec/ibus-engine-enchant --ibus</exec>
 	<version>1.2.99.20231130</version>
 	<author>Peng Huang &lt;shawn.p.huang@gmail.com&gt;</author>
 	<license>GPL</license>
@@ -16,7 +16,7 @@
 			<language>zh_CN</language>
 			<license>GPL</license>
 			<author>Peng Huang &lt;shawn.p.huang@gmail.com&gt;</author>
-			<icon>/usr/local/share/ibus-tmpl/icons/ibus-enchant.svg</icon>
+			<icon>/usr/share/ibus-tmpl/icons/ibus-enchant.svg</icon>
 			<layout>us</layout>
 			<longname>Enchant</longname>
 			<description>Enchant Input Method</description>
