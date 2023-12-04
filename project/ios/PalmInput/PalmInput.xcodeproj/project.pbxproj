@@ -19,34 +19,8 @@
 		E7E597672B19ABC300AEA055 /* InputResPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E597612B19ABC200AEA055 /* InputResPool.swift */; };
 		E7E597682B19ABC300AEA055 /* PinyinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E597622B19ABC300AEA055 /* PinyinView.swift */; };
 		E7E597692B19ABC300AEA055 /* InputMgrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E597632B19ABC300AEA055 /* InputMgrView.swift */; };
-		E7E5976A2B19ABC300AEA055 /* num_keyboard.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597642B19ABC300AEA055 /* num_keyboard.json */; };
 		E7E5976B2B19ABC300AEA055 /* InputBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E597652B19ABC300AEA055 /* InputBaseView.swift */; };
 		E7E5976E2B19ACDE00AEA055 /* libpalmengine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E5976D2B19ACDE00AEA055 /* libpalmengine.a */; };
-		E7E597A62B19B06200AEA055 /* handwrite.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597732B19B06200AEA055 /* handwrite.json */; };
-		E7E597A72B19B06200AEA055 /* emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597742B19B06200AEA055 /* emoji.png */; };
-		E7E597A82B19B06200AEA055 /* space.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597752B19B06200AEA055 /* space.png */; };
-		E7E597A92B19B06200AEA055 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597762B19B06200AEA055 /* lock.png */; };
-		E7E597AA2B19B06200AEA055 /* pinyin-qwerty.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597772B19B06200AEA055 /* pinyin-qwerty.json */; };
-		E7E597AB2B19B06200AEA055 /* symbol-qwerty-en-more.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597782B19B06200AEA055 /* symbol-qwerty-en-more.json */; };
-		E7E597AC2B19B06200AEA055 /* shift_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597792B19B06200AEA055 /* shift_normal.png */; };
-		E7E597AD2B19B06200AEA055 /* english-qwerty-ios.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E5977A2B19B06200AEA055 /* english-qwerty-ios.json */; };
-		E7E597AE2B19B06200AEA055 /* shift_locked.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E5977B2B19B06200AEA055 /* shift_locked.png */; };
-		E7E597AF2B19B06200AEA055 /* number.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E5977C2B19B06200AEA055 /* number.json */; };
-		E7E597B02B19B06200AEA055 /* cn_en.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E5977D2B19B06200AEA055 /* cn_en.png */; };
-		E7E597B12B19B06200AEA055 /* symbol-qwerty-cn.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E5977E2B19B06200AEA055 /* symbol-qwerty-cn.json */; };
-		E7E597B22B19B06200AEA055 /* entry.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E5977F2B19B06200AEA055 /* entry.png */; };
-		E7E597B32B19B06200AEA055 /* en_cn.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597802B19B06200AEA055 /* en_cn.png */; };
-		E7E597B42B19B06200AEA055 /* symbol-number.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597812B19B06200AEA055 /* symbol-number.json */; };
-		E7E597B52B19B06200AEA055 /* english-qwerty.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597822B19B06200AEA055 /* english-qwerty.json */; };
-		E7E597B62B19B06200AEA055 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597832B19B06200AEA055 /* menu.png */; };
-		E7E597B72B19B06200AEA055 /* symbol-qwerty-cn-more.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597842B19B06200AEA055 /* symbol-qwerty-cn-more.json */; };
-		E7E597B82B19B06200AEA055 /* backspace.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597852B19B06200AEA055 /* backspace.png */; };
-		E7E597B92B19B06200AEA055 /* symbol-qwerty-en.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597862B19B06200AEA055 /* symbol-qwerty-en.json */; };
-		E7E597BA2B19B06200AEA055 /* language.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597872B19B06200AEA055 /* language.png */; };
-		E7E597BB2B19B06200AEA055 /* unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E597882B19B06200AEA055 /* unlock.png */; };
-		E7E597BC2B19B06200AEA055 /* pinyin-qwerty-ios.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597892B19B06200AEA055 /* pinyin-qwerty-ios.json */; };
-		E7E597BD2B19B06200AEA055 /* shift_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E5978A2B19B06200AEA055 /* shift_upper.png */; };
-		E7E597BE2B19B06200AEA055 /* hide.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E5978B2B19B06200AEA055 /* hide.png */; };
 		E7F71C032B1DE7FA0088B4F6 /* skin-black in Resources */ = {isa = PBXBuildFile; fileRef = E7F71C022B1DE7FA0088B4F6 /* skin-black */; };
 		E7F71C052B1DE80F0088B4F6 /* skin-white in Resources */ = {isa = PBXBuildFile; fileRef = E7F71C042B1DE80F0088B4F6 /* skin-white */; };
 /* End PBXBuildFile section */
@@ -90,36 +64,10 @@
 		E7E597612B19ABC200AEA055 /* InputResPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputResPool.swift; sourceTree = "<group>"; };
 		E7E597622B19ABC300AEA055 /* PinyinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinyinView.swift; sourceTree = "<group>"; };
 		E7E597632B19ABC300AEA055 /* InputMgrView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputMgrView.swift; sourceTree = "<group>"; };
-		E7E597642B19ABC300AEA055 /* num_keyboard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = num_keyboard.json; sourceTree = "<group>"; };
 		E7E597652B19ABC300AEA055 /* InputBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputBaseView.swift; sourceTree = "<group>"; };
 		E7E5976D2B19ACDE00AEA055 /* libpalmengine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpalmengine.a; path = "../../../engine/lib/ios/Release-iphoneos/libpalmengine.a"; sourceTree = "<group>"; };
 		E7E597702B19AD0A00AEA055 /* palmengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = palmengine.h; path = ../../../../engine/project/ios/palmengine/palmengine/palmengine.h; sourceTree = "<group>"; };
 		E7E597712B19ADC800AEA055 /* PalmKeyboard-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PalmKeyboard-Bridging-Header.h"; sourceTree = "<group>"; };
-		E7E597732B19B06200AEA055 /* handwrite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = handwrite.json; sourceTree = "<group>"; };
-		E7E597742B19B06200AEA055 /* emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji.png; sourceTree = "<group>"; };
-		E7E597752B19B06200AEA055 /* space.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = space.png; sourceTree = "<group>"; };
-		E7E597762B19B06200AEA055 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
-		E7E597772B19B06200AEA055 /* pinyin-qwerty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pinyin-qwerty.json"; sourceTree = "<group>"; };
-		E7E597782B19B06200AEA055 /* symbol-qwerty-en-more.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "symbol-qwerty-en-more.json"; sourceTree = "<group>"; };
-		E7E597792B19B06200AEA055 /* shift_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shift_normal.png; sourceTree = "<group>"; };
-		E7E5977A2B19B06200AEA055 /* english-qwerty-ios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "english-qwerty-ios.json"; sourceTree = "<group>"; };
-		E7E5977B2B19B06200AEA055 /* shift_locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shift_locked.png; sourceTree = "<group>"; };
-		E7E5977C2B19B06200AEA055 /* number.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = number.json; sourceTree = "<group>"; };
-		E7E5977D2B19B06200AEA055 /* cn_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cn_en.png; sourceTree = "<group>"; };
-		E7E5977E2B19B06200AEA055 /* symbol-qwerty-cn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "symbol-qwerty-cn.json"; sourceTree = "<group>"; };
-		E7E5977F2B19B06200AEA055 /* entry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entry.png; sourceTree = "<group>"; };
-		E7E597802B19B06200AEA055 /* en_cn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_cn.png; sourceTree = "<group>"; };
-		E7E597812B19B06200AEA055 /* symbol-number.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "symbol-number.json"; sourceTree = "<group>"; };
-		E7E597822B19B06200AEA055 /* english-qwerty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "english-qwerty.json"; sourceTree = "<group>"; };
-		E7E597832B19B06200AEA055 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
-		E7E597842B19B06200AEA055 /* symbol-qwerty-cn-more.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "symbol-qwerty-cn-more.json"; sourceTree = "<group>"; };
-		E7E597852B19B06200AEA055 /* backspace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspace.png; sourceTree = "<group>"; };
-		E7E597862B19B06200AEA055 /* symbol-qwerty-en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "symbol-qwerty-en.json"; sourceTree = "<group>"; };
-		E7E597872B19B06200AEA055 /* language.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = language.png; sourceTree = "<group>"; };
-		E7E597882B19B06200AEA055 /* unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlock.png; sourceTree = "<group>"; };
-		E7E597892B19B06200AEA055 /* pinyin-qwerty-ios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pinyin-qwerty-ios.json"; sourceTree = "<group>"; };
-		E7E5978A2B19B06200AEA055 /* shift_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shift_upper.png; sourceTree = "<group>"; };
-		E7E5978B2B19B06200AEA055 /* hide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hide.png; sourceTree = "<group>"; };
 		E7F71C022B1DE7FA0088B4F6 /* skin-black */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "skin-black"; path = "../../../data/skin/skin-black"; sourceTree = "<group>"; };
 		E7F71C042B1DE80F0088B4F6 /* skin-white */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "skin-white"; path = "../../../data/skin/skin-white"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -186,18 +134,10 @@
 		E7E597362B19A91B00AEA055 /* PalmKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				E7F71C072B1DEA430088B4F6 /* InputView */,
 				E7E597712B19ADC800AEA055 /* PalmKeyboard-Bridging-Header.h */,
-				E7E597722B19B06200AEA055 /* skin-black */,
 				E7E5976F2B19ACF000AEA055 /* PalmEngine */,
 				E7E597372B19A91B00AEA055 /* KeyboardViewController.swift */,
-				E7E597442B19A9EB00AEA055 /* KeyboardSkin.swift */,
-				E7E597412B19A96300AEA055 /* SwiftyJSON.swift */,
-				E7E597602B19ABC200AEA055 /* HandView.swift */,
-				E7E597652B19ABC300AEA055 /* InputBaseView.swift */,
-				E7E597632B19ABC300AEA055 /* InputMgrView.swift */,
-				E7E597612B19ABC200AEA055 /* InputResPool.swift */,
-				E7E597642B19ABC300AEA055 /* num_keyboard.json */,
-				E7E597622B19ABC300AEA055 /* PinyinView.swift */,
 				E7E597392B19A91B00AEA055 /* Info.plist */,
 			);
 			path = PalmKeyboard;
@@ -219,37 +159,18 @@
 			name = PalmEngine;
 			sourceTree = "<group>";
 		};
-		E7E597722B19B06200AEA055 /* skin-black */ = {
+		E7F71C072B1DEA430088B4F6 /* InputView */ = {
 			isa = PBXGroup;
 			children = (
-				E7E597732B19B06200AEA055 /* handwrite.json */,
-				E7E597742B19B06200AEA055 /* emoji.png */,
-				E7E597752B19B06200AEA055 /* space.png */,
-				E7E597762B19B06200AEA055 /* lock.png */,
-				E7E597772B19B06200AEA055 /* pinyin-qwerty.json */,
-				E7E597782B19B06200AEA055 /* symbol-qwerty-en-more.json */,
-				E7E597792B19B06200AEA055 /* shift_normal.png */,
-				E7E5977A2B19B06200AEA055 /* english-qwerty-ios.json */,
-				E7E5977B2B19B06200AEA055 /* shift_locked.png */,
-				E7E5977C2B19B06200AEA055 /* number.json */,
-				E7E5977D2B19B06200AEA055 /* cn_en.png */,
-				E7E5977E2B19B06200AEA055 /* symbol-qwerty-cn.json */,
-				E7E5977F2B19B06200AEA055 /* entry.png */,
-				E7E597802B19B06200AEA055 /* en_cn.png */,
-				E7E597812B19B06200AEA055 /* symbol-number.json */,
-				E7E597822B19B06200AEA055 /* english-qwerty.json */,
-				E7E597832B19B06200AEA055 /* menu.png */,
-				E7E597842B19B06200AEA055 /* symbol-qwerty-cn-more.json */,
-				E7E597852B19B06200AEA055 /* backspace.png */,
-				E7E597862B19B06200AEA055 /* symbol-qwerty-en.json */,
-				E7E597872B19B06200AEA055 /* language.png */,
-				E7E597882B19B06200AEA055 /* unlock.png */,
-				E7E597892B19B06200AEA055 /* pinyin-qwerty-ios.json */,
-				E7E5978A2B19B06200AEA055 /* shift_upper.png */,
-				E7E5978B2B19B06200AEA055 /* hide.png */,
+				E7E597442B19A9EB00AEA055 /* KeyboardSkin.swift */,
+				E7E597412B19A96300AEA055 /* SwiftyJSON.swift */,
+				E7E597602B19ABC200AEA055 /* HandView.swift */,
+				E7E597652B19ABC300AEA055 /* InputBaseView.swift */,
+				E7E597632B19ABC300AEA055 /* InputMgrView.swift */,
+				E7E597612B19ABC200AEA055 /* InputResPool.swift */,
+				E7E597622B19ABC300AEA055 /* PinyinView.swift */,
 			);
-			name = "skin-black";
-			path = "../../../../data/skin/skin-black";
+			name = InputView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,32 +265,6 @@
 			files = (
 				E7F71C052B1DE80F0088B4F6 /* skin-white in Resources */,
 				E7F71C032B1DE7FA0088B4F6 /* skin-black in Resources */,
-				E7E597B72B19B06200AEA055 /* symbol-qwerty-cn-more.json in Resources */,
-				E7E597AA2B19B06200AEA055 /* pinyin-qwerty.json in Resources */,
-				E7E597AC2B19B06200AEA055 /* shift_normal.png in Resources */,
-				E7E597B62B19B06200AEA055 /* menu.png in Resources */,
-				E7E597B92B19B06200AEA055 /* symbol-qwerty-en.json in Resources */,
-				E7E597BE2B19B06200AEA055 /* hide.png in Resources */,
-				E7E597A82B19B06200AEA055 /* space.png in Resources */,
-				E7E597B52B19B06200AEA055 /* english-qwerty.json in Resources */,
-				E7E597B02B19B06200AEA055 /* cn_en.png in Resources */,
-				E7E597B12B19B06200AEA055 /* symbol-qwerty-cn.json in Resources */,
-				E7E597BA2B19B06200AEA055 /* language.png in Resources */,
-				E7E597AB2B19B06200AEA055 /* symbol-qwerty-en-more.json in Resources */,
-				E7E597B42B19B06200AEA055 /* symbol-number.json in Resources */,
-				E7E597A92B19B06200AEA055 /* lock.png in Resources */,
-				E7E597A62B19B06200AEA055 /* handwrite.json in Resources */,
-				E7E597BC2B19B06200AEA055 /* pinyin-qwerty-ios.json in Resources */,
-				E7E597AE2B19B06200AEA055 /* shift_locked.png in Resources */,
-				E7E597B82B19B06200AEA055 /* backspace.png in Resources */,
-				E7E597BD2B19B06200AEA055 /* shift_upper.png in Resources */,
-				E7E5976A2B19ABC300AEA055 /* num_keyboard.json in Resources */,
-				E7E597AF2B19B06200AEA055 /* number.json in Resources */,
-				E7E597BB2B19B06200AEA055 /* unlock.png in Resources */,
-				E7E597AD2B19B06200AEA055 /* english-qwerty-ios.json in Resources */,
-				E7E597B22B19B06200AEA055 /* entry.png in Resources */,
-				E7E597A72B19B06200AEA055 /* emoji.png in Resources */,
-				E7E597B32B19B06200AEA055 /* en_cn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
