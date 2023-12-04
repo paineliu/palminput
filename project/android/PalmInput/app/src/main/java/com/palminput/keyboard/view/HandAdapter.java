@@ -9,8 +9,8 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.palminput.keyboard.R;
-import com.palminput.keyboard.engine.HWProvider;
-import com.palminput.keyboard.engine.PYProvider;
+import com.palminput.engine.HWProvider;
+import com.palminput.engine.PYProvider;
 
 public class HandAdapter extends RecyclerView.Adapter<HandAdapter.DataViewHolder> implements View.OnClickListener{
     private Context mContext;

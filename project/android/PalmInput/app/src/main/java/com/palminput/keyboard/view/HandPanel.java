@@ -16,7 +16,7 @@ import com.palminput.keyboard.PalmInputService;
 import com.palminput.keyboard.InputMgrView;
 import com.palminput.keyboard.skin.SkinKeyboard;
 import com.palminput.keyboard.skin.SkinResPool;
-import com.palminput.keyboard.engine.HWProvider;
+import com.palminput.engine.HWProvider;
 
 import java.util.ArrayList;
 import java.util.Timer;

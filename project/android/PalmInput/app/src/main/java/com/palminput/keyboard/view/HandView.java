@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.palminput.keyboard.PalmInputService;
 import com.palminput.keyboard.skin.SkinKeyboard;
 import com.palminput.keyboard.skin.SkinResPool;
-import com.palminput.keyboard.engine.HWProvider;
+import com.palminput.engine.HWProvider;
 
 import static android.view.MotionEvent.ACTION_DOWN;
 import static android.view.MotionEvent.ACTION_UP;

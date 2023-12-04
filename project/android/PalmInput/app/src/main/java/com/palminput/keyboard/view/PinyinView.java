@@ -13,8 +13,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.palminput.keyboard.PalmInputService;
 import com.palminput.keyboard.skin.SkinKeyboard;
 import com.palminput.keyboard.skin.SkinResPool;
-import com.palminput.keyboard.engine.PYOptions;
-import com.palminput.keyboard.engine.PYProvider;
+import com.palminput.engine.PYOptions;
+import com.palminput.engine.PYProvider;
 
 import static com.palminput.keyboard.InputMgrView.INPUT_METHOD_PINYIN;
 

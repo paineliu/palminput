@@ -184,10 +184,10 @@ public class InputMgrView extends ViewGroup implements IOperater {
         mCurrentKeyboard = mCurrentKeyboardMain;
 
         // !!!!
-        if (mCurrentKeyboard == mPinyinView || mCurrentKeyboard == mHandView)
-        {
-            mCurrentKeyboard = mEnglishView;
-        }
+//        if (mCurrentKeyboard == mPinyinView || mCurrentKeyboard == mHandView)
+//        {
+//            mCurrentKeyboard = mEnglishView;
+//        }
 
         addView((View) mCurrentKeyboard);
         mCurrentKeyboard.show();
@@ -253,10 +253,10 @@ public class InputMgrView extends ViewGroup implements IOperater {
         }
 
         // !!!!
-        if (mCurrentKeyboard == mPinyinView || mCurrentKeyboard == mHandView)
-        {
-            mCurrentKeyboard = mEnglishView;
-        }
+//        if (mCurrentKeyboard == mPinyinView || mCurrentKeyboard == mHandView)
+//        {
+//            mCurrentKeyboard = mEnglishView;
+//        }
 
         if (!mCurrentKeyboard.isInit()) {
             mCurrentKeyboard.init(this, id, mResPool, createSkin(id));
