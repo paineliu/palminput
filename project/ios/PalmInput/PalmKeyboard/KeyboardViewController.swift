@@ -59,7 +59,7 @@ class KeyboardViewController: UIInputViewController {
 //            // horizontal is unknown..
 //            break;
 //        }
-        
+
         isLandscape = self.interfaceOrientation != UIInterfaceOrientation.portrait
         
         if (isLandscape) {

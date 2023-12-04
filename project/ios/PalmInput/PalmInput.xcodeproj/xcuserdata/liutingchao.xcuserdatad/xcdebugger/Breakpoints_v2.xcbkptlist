@@ -18,6 +18,38 @@
             endingLineNumber = "112"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D1180DF8-1ECA-4AB3-AA14-583DDC554988 - 9d930f336bb89c6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalmKeyboard.KeyboardViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "PalmKeyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingchao/Desktop/blcu/palminput/project/ios/PalmInput/PalmKeyboard/KeyboardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "1716">
+               </Location>
+               <Location
+                  uuid = "D1180DF8-1ECA-4AB3-AA14-583DDC554988 - 9d930f336bb89c8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalmKeyboard.KeyboardViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "PalmKeyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingchao/Desktop/blcu/palminput/project/ios/PalmInput/PalmKeyboard/KeyboardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "1716">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -33,6 +65,286 @@
             startingLineNumber = "96"
             endingLineNumber = "96"
             landmarkName = "createKeyboad(inputKeyboard:frame:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98688990-860E-48B8-8C76-710EDDE24856"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PalmKeyboard/InputBaseView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "init(frame:jsonFile:delegate:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "98688990-860E-48B8-8C76-710EDDE24856 - bd7d3afa27f6747c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalmKeyboard.InputBaseView.init(frame: __C.CGRect, jsonFile: Swift.String, delegate: PalmKeyboard.KeyboardMgrProtocol) -&gt; PalmKeyboard.InputBaseView"
+                  moduleName = "PalmKeyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingchao/Desktop/blcu/palminput/project/ios/PalmInput/PalmKeyboard/InputBaseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2036">
+               </Location>
+               <Location
+                  uuid = "98688990-860E-48B8-8C76-710EDDE24856 - bd7d3afa27f6747c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalmKeyboard.InputBaseView.init(frame: __C.CGRect, jsonFile: Swift.String, delegate: PalmKeyboard.KeyboardMgrProtocol) -&gt; PalmKeyboard.InputBaseView"
+                  moduleName = "PalmKeyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingchao/Desktop/blcu/palminput/project/ios/PalmInput/PalmKeyboard/InputBaseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2048">
+               </Location>
+               <Location
+                  uuid = "98688990-860E-48B8-8C76-710EDDE24856 - bd7d3afa27f6747c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalmKeyboard.InputBaseView.init(frame: __C.CGRect, jsonFile: Swift.String, delegate: PalmKeyboard.KeyboardMgrProtocol) -&gt; PalmKeyboard.InputBaseView"
+                  moduleName = "PalmKeyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingchao/Desktop/blcu/palminput/project/ios/PalmInput/PalmKeyboard/InputBaseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2056">
+               </Location>
+               <Location
+                  uuid = "98688990-860E-48B8-8C76-710EDDE24856 - bd7d3afa27f6747c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalmKeyboard.InputBaseView.init(frame: __C.CGRect, jsonFile: Swift.String, delegate: PalmKeyboard.KeyboardMgrProtocol) -&gt; PalmKeyboard.InputBaseView"
+                  moduleName = "PalmKeyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingchao/Desktop/blcu/palminput/project/ios/PalmInput/PalmKeyboard/InputBaseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2172">
+               </Location>
+               <Location
+                  uuid = "98688990-860E-48B8-8C76-710EDDE24856 - bd7d3afa27f6747c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalmKeyboard.InputBaseView.init(frame: __C.CGRect, jsonFile: Swift.String, delegate: PalmKeyboard.KeyboardMgrProtocol) -&gt; PalmKeyboard.InputBaseView"
+                  moduleName = "PalmKeyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingchao/Desktop/blcu/palminput/project/ios/PalmInput/PalmKeyboard/InputBaseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2168">
+               </Location>
+               <Location
+                  uuid = "98688990-860E-48B8-8C76-710EDDE24856 - bd7d3afa27f6747c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalmKeyboard.InputBaseView.init(frame: __C.CGRect, jsonFile: Swift.String, delegate: PalmKeyboard.KeyboardMgrProtocol) -&gt; PalmKeyboard.InputBaseView"
+                  moduleName = "PalmKeyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingchao/Desktop/blcu/palminput/project/ios/PalmInput/PalmKeyboard/InputBaseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2228">
+               </Location>
+               <Location
+                  uuid = "98688990-860E-48B8-8C76-710EDDE24856 - bd7d3afa27f6747c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalmKeyboard.InputBaseView.init(frame: __C.CGRect, jsonFile: Swift.String, delegate: PalmKeyboard.KeyboardMgrProtocol) -&gt; PalmKeyboard.InputBaseView"
+                  moduleName = "PalmKeyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingchao/Desktop/blcu/palminput/project/ios/PalmInput/PalmKeyboard/InputBaseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB86285E-910F-4BE5-AC89-8A765C712CC9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PalmKeyboard/InputBaseView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "init(frame:jsonFile:delegate:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AB86285E-910F-4BE5-AC89-8A765C712CC9 - bd7d3afa27f677ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalmKeyboard.InputBaseView.init(frame: __C.CGRect, jsonFile: Swift.String, delegate: PalmKeyboard.KeyboardMgrProtocol) -&gt; PalmKeyboard.InputBaseView"
+                  moduleName = "PalmKeyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingchao/Desktop/blcu/palminput/project/ios/PalmInput/PalmKeyboard/InputBaseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "5148">
+               </Location>
+               <Location
+                  uuid = "AB86285E-910F-4BE5-AC89-8A765C712CC9 - bd7d3afa27f677ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalmKeyboard.InputBaseView.init(frame: __C.CGRect, jsonFile: Swift.String, delegate: PalmKeyboard.KeyboardMgrProtocol) -&gt; PalmKeyboard.InputBaseView"
+                  moduleName = "PalmKeyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingchao/Desktop/blcu/palminput/project/ios/PalmInput/PalmKeyboard/InputBaseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "5272">
+               </Location>
+               <Location
+                  uuid = "AB86285E-910F-4BE5-AC89-8A765C712CC9 - bd7d3afa27f677ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalmKeyboard.InputBaseView.init(frame: __C.CGRect, jsonFile: Swift.String, delegate: PalmKeyboard.KeyboardMgrProtocol) -&gt; PalmKeyboard.InputBaseView"
+                  moduleName = "PalmKeyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingchao/Desktop/blcu/palminput/project/ios/PalmInput/PalmKeyboard/InputBaseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "5264">
+               </Location>
+               <Location
+                  uuid = "AB86285E-910F-4BE5-AC89-8A765C712CC9 - bd7d3afa27f677ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalmKeyboard.InputBaseView.init(frame: __C.CGRect, jsonFile: Swift.String, delegate: PalmKeyboard.KeyboardMgrProtocol) -&gt; PalmKeyboard.InputBaseView"
+                  moduleName = "PalmKeyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingchao/Desktop/blcu/palminput/project/ios/PalmInput/PalmKeyboard/InputBaseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "5324">
+               </Location>
+               <Location
+                  uuid = "AB86285E-910F-4BE5-AC89-8A765C712CC9 - bd7d3afa27f677ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalmKeyboard.InputBaseView.init(frame: __C.CGRect, jsonFile: Swift.String, delegate: PalmKeyboard.KeyboardMgrProtocol) -&gt; PalmKeyboard.InputBaseView"
+                  moduleName = "PalmKeyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingchao/Desktop/blcu/palminput/project/ios/PalmInput/PalmKeyboard/InputBaseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "5420">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1BE1E3C-B8A1-4D4A-9AE2-C98C663C295B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PalmKeyboard/InputBaseView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "init(frame:jsonFile:delegate:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F1BE1E3C-B8A1-4D4A-9AE2-C98C663C295B - bd7d3afa27f674b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalmKeyboard.InputBaseView.init(frame: __C.CGRect, jsonFile: Swift.String, delegate: PalmKeyboard.KeyboardMgrProtocol) -&gt; PalmKeyboard.InputBaseView"
+                  moduleName = "PalmKeyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingchao/Desktop/blcu/palminput/project/ios/PalmInput/PalmKeyboard/InputBaseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1816">
+               </Location>
+               <Location
+                  uuid = "F1BE1E3C-B8A1-4D4A-9AE2-C98C663C295B - bd7d3afa27f674b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalmKeyboard.InputBaseView.init(frame: __C.CGRect, jsonFile: Swift.String, delegate: PalmKeyboard.KeyboardMgrProtocol) -&gt; PalmKeyboard.InputBaseView"
+                  moduleName = "PalmKeyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liutingchao/Desktop/blcu/palminput/project/ios/PalmInput/PalmKeyboard/InputBaseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1708">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AD11FF4-9844-4B74-BBF0-124FB4477CAA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PalmKeyboard/InputBaseView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "init(frame:jsonFile:delegate:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

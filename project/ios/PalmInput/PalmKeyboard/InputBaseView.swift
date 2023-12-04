@@ -44,9 +44,9 @@ class InputBaseView: UIView {
         self.isMultipleTouchEnabled = true
         skinPath = "skin-black"
         let name = jsonFile + ".json"
-        jsonFilename = Bundle.main.path(forResource: jsonFile, ofType: nil)
+        jsonFilename = Bundle.main.path(forResource: jsonFile, ofType: "json")
         	
-        jsonData = NSData(contentsOfFile: name)
+        jsonData = NSData(contentsOfFile: jsonFilename!)
         let decoder = JSONDecoder()
         symLock = false
         shiftMode = .Low
@@ -65,11 +65,14 @@ class InputBaseView: UIView {
         labelDict["&shift_upper;"] = "shift_upper"
         labelDict["&shift_locked;"] = "shift_locked"
 
-       
-        do {
-            skin = try decoder.decode(KeyboardSkin.self, from: jsonData! as Data)
-        } catch {
-            print(error)
+        if (jsonData != nil)
+        {
+            do {
+                print(jsonData!)
+                skin = try decoder.decode(KeyboardSkin.self, from: jsonData! as Data)
+            } catch {
+                print(error)
+            }
         }
         skin?.resize(frame: frame)
 
