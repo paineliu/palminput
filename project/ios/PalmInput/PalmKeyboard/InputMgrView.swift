@@ -56,7 +56,7 @@ class InputMgrView: UIView {
     }
     
     public func createKeyboad(inputKeyboard:InputKeyboard, frame:CGRect) -> InputBaseView {
-        let frame = CGRect(x: 0, y:0, width: 375, height: 256)
+        let frame = CGRect(x: 0, y:0, width: 395, height: 256)
         switch inputKeyboard {
         case .Chinese:
             mainKeyboard = inputKeyboard

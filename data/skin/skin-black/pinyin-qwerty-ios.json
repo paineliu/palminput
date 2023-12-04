@@ -708,24 +708,13 @@
       "origRect": {
         "left": 5,
         "top": 400,
-        "right": 94,
+        "right": 112,
         "bottom": 500
       },
       "touchRect": {
         "left": 0,
         "top": 400,
-        "right": 94,
-        "bottom": 500
-      },
-      "styleId": 2
-    },
-    {
-      "id": "VK_LANGUAGE",
-      "label": "&language;",
-      "origRect": {
-        "left": 94,
-        "top": 400,
-        "right": 165,
+        "right": 112,
         "bottom": 500
       },
       "styleId": 2
@@ -734,9 +723,9 @@
       "id": "VK_NUMBER",
       "label": "123",
       "origRect": {
-        "left": 165,
+        "left": 112,
         "top": 400,
-        "right": 254,
+        "right": 205,
         "bottom": 500
       },
       "styleId": 2
@@ -745,10 +734,10 @@
       "id": "VK_SPACE",
       "label": "&space;",
       "origRect": {
-        "left": 254,
-        "top": 400,
-        "right": 467,
-        "bottom": 500
+          "left": 205,
+          "top": 400,
+          "right": 515,
+          "bottom": 500
       },
       "styleId": 0
     },
@@ -756,10 +745,10 @@
       "id": "VK_ENGLISH",
       "label": "&english;",
       "origRect": {
-        "left": 467,
-        "top": 400,
-        "right": 556,
-        "bottom": 500
+          "left": 515,
+          "top": 400,
+          "right": 609,
+          "bottom": 500
       },
       "styleId": 2
     },
@@ -767,13 +756,13 @@
       "id": "VK_DONE",
       "label": "&done;",
       "origRect": {
-        "left": 556,
+        "left": 609,
         "top": 400,
         "right": 715,
         "bottom": 500
       },
       "touchRect": {
-        "left": 556,
+        "left": 609,
         "top": 400,
         "right": 720,
         "bottom": 500

@@ -107,7 +107,7 @@ class KeyboardViewController: UIInputViewController {
         }
 
         print("didload\n");
-        hwView = InputMgrView(frame:CGRect(x: 0, y: 0,width: 375, height: 256))
+        hwView = InputMgrView(frame:CGRect(x: 0, y: 0,width: 395, height: 256))
         hwView.setController(self)
         hwView.show(inputKeyboard: .Pinyin)
         hwView.translatesAutoresizingMaskIntoConstraints = false

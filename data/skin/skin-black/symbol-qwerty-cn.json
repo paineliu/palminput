@@ -694,8 +694,8 @@
       "styleId": 2
     },
     {
-      "id": "VK_LANGUAGE",
-      "label": "&language;",
+      "id": "VK_NUMBER",
+      "label": "123",
       "origRect": {
         "left": 112,
         "top": 400,

@@ -47,6 +47,8 @@
 		E7E597BC2B19B06200AEA055 /* pinyin-qwerty-ios.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E597892B19B06200AEA055 /* pinyin-qwerty-ios.json */; };
 		E7E597BD2B19B06200AEA055 /* shift_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E5978A2B19B06200AEA055 /* shift_upper.png */; };
 		E7E597BE2B19B06200AEA055 /* hide.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E5978B2B19B06200AEA055 /* hide.png */; };
+		E7F71C032B1DE7FA0088B4F6 /* skin-black in Resources */ = {isa = PBXBuildFile; fileRef = E7F71C022B1DE7FA0088B4F6 /* skin-black */; };
+		E7F71C052B1DE80F0088B4F6 /* skin-white in Resources */ = {isa = PBXBuildFile; fileRef = E7F71C042B1DE80F0088B4F6 /* skin-white */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +120,8 @@
 		E7E597892B19B06200AEA055 /* pinyin-qwerty-ios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pinyin-qwerty-ios.json"; sourceTree = "<group>"; };
 		E7E5978A2B19B06200AEA055 /* shift_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shift_upper.png; sourceTree = "<group>"; };
 		E7E5978B2B19B06200AEA055 /* hide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hide.png; sourceTree = "<group>"; };
+		E7F71C022B1DE7FA0088B4F6 /* skin-black */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "skin-black"; path = "../../../data/skin/skin-black"; sourceTree = "<group>"; };
+		E7F71C042B1DE80F0088B4F6 /* skin-white */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "skin-white"; path = "../../../data/skin/skin-white"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,8 @@
 		E7E597172B19A84400AEA055 = {
 			isa = PBXGroup;
 			children = (
+				E7F71C042B1DE80F0088B4F6 /* skin-white */,
+				E7F71C022B1DE7FA0088B4F6 /* skin-black */,
 				E7E597222B19A84400AEA055 /* PalmInput */,
 				E7E597362B19A91B00AEA055 /* PalmKeyboard */,
 				E7E597212B19A84400AEA055 /* Products */,
@@ -336,6 +342,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F71C052B1DE80F0088B4F6 /* skin-white in Resources */,
+				E7F71C032B1DE7FA0088B4F6 /* skin-black in Resources */,
 				E7E597B72B19B06200AEA055 /* symbol-qwerty-cn-more.json in Resources */,
 				E7E597AA2B19B06200AEA055 /* pinyin-qwerty.json in Resources */,
 				E7E597AC2B19B06200AEA055 /* shift_normal.png in Resources */,

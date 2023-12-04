@@ -74,8 +74,11 @@ class PinyinView: InputBaseView, UICollectionViewDataSource, UICollectionViewDel
         collectionView.isHidden = pyProvider.getCandTotal() == 0
         self._inlinelabel.text = pyProvider.getKeyString()
         delegate.setMarkedText(text: pyProvider.getKeyString())
-        collectionView.reloadData()
-        collectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: UICollectionView.ScrollPosition.top, animated: false)
+        if (pyProvider.getCandTotal() > 0)
+        {
+            collectionView.reloadData()
+            collectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: UICollectionView.ScrollPosition.top, animated: false)
+        }
         setNeedsDisplay()
     }
     
@@ -171,8 +174,11 @@ class PinyinView: InputBaseView, UICollectionViewDataSource, UICollectionViewDel
             self._inlinelabel.text = pyProvider.getCompString(&caretPos, withSplit: true)
             delegate.setMarkedText(text: self._inlinelabel.text ?? "")
             collectionView.isHidden = pyProvider.getCandTotal() == 0
-            collectionView.reloadData()
-            collectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: UICollectionView.ScrollPosition.left, animated: false)
+            if (pyProvider.getCandTotal() > 0)
+            {
+                collectionView.reloadData()
+                collectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: UICollectionView.ScrollPosition.left, animated: false)
+            }
             break
         case "VK_BACKSPACE":
             if (pyProvider.getCandTotal() > 0) {
@@ -180,8 +186,11 @@ class PinyinView: InputBaseView, UICollectionViewDataSource, UICollectionViewDel
                 self._inlinelabel.text = pyProvider.getCompString(&caretPos, withSplit: true)
                 delegate.setMarkedText(text: self._inlinelabel.text ?? "")
                 collectionView.isHidden = pyProvider.getCandTotal() == 0
-                collectionView.reloadData()
-                collectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: UICollectionView.ScrollPosition.left, animated: false)
+                if (pyProvider.getCandTotal() > 0)
+                {
+                    collectionView.reloadData()
+                    collectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: UICollectionView.ScrollPosition.left, animated: false)
+                }
             }
             else {
                 super.onKeyUp(button: button)

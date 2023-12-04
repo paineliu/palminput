@@ -43,8 +43,7 @@ class InputBaseView: UIView {
         self.delegate = delegate
         self.isMultipleTouchEnabled = true
         skinPath = "skin-black"
-        let name = jsonFile + ".json"
-        jsonFilename = Bundle.main.path(forResource: jsonFile, ofType: "json")
+        jsonFilename = Bundle.main.path(forResource: jsonFile, ofType: "json", inDirectory:skinPath)
         	
         jsonData = NSData(contentsOfFile: jsonFilename!)
         let decoder = JSONDecoder()

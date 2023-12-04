@@ -397,15 +397,21 @@ class HandWriteView: UIView, UICollectionViewDataSource, UICollectionViewDelegat
                         pyProvider.processKey(key)
                         self._inlinelabel.text = pyProvider.getCompString(&caretPos, withSplit: true)
                         collectionView.isHidden = pyProvider.getCandTotal() == 0
-                        collectionView.reloadData()
-                        collectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: UICollectionView.ScrollPosition.left, animated: false)
+                        if (pyProvider.getCandTotal() > 0)
+                        {
+                            collectionView.reloadData()
+                            collectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: UICollectionView.ScrollPosition.left, animated: false)
+                        }
                         break
                     case "&backspace;":
                         pyProvider.processKey(8)
                         self._inlinelabel.text = pyProvider.getCompString(&caretPos, withSplit: true)
                         collectionView.isHidden = pyProvider.getCandTotal() == 0
-                        collectionView.reloadData()
-                        collectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: UICollectionView.ScrollPosition.left, animated: false)
+                        if (pyProvider.getCandTotal() > 0)
+                        {
+                            collectionView.reloadData()
+                            collectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: UICollectionView.ScrollPosition.left, animated: false)
+                        }
                     default:
                         break
                     }
