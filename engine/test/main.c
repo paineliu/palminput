@@ -12,7 +12,7 @@
 
 void set_charset()
 {
-    system("chcp 65001");
+   // system("chcp 65001");
 
     //CONSOLE_FONT_INFOEX info = { 0 };
     //info.cbSize = sizeof(info);
@@ -24,15 +24,15 @@ void set_charset()
 
 int main()
 {
-    set_charset();
- //   phrase_output_test();
+    // set_charset();
+    // phrase_output_test();
   //  test_lex_write();
     //    test_dyn_reader();
-    //test_engine();
+    test_engine();
 
-//  test_han();
+  // test_han();
 
-  test_lex_reader();
+  // test_lex_reader();
 //  test_graph();
 
     return 0;

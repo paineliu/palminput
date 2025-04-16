@@ -165,6 +165,6 @@ int PYLex_SortedPhraseCompare(const PY_UINT16* pHanString, const PY_UINT32 * pPh
 
 PY_UINT32 PYLex_GetSortedPhraseIdBeginPos(PY_LEX* pLex, PY_UINT16* pHanString, PY_UINT16 nHanLen)
 {
-    return PY_binsearchmin(pHanString, pLex->stData.pSortedPhraseId, pLex->stData.nSortedPhraseTotal, sizeof(PY_UINT32), PYLex_SortedPhraseCompare, pLex);
+    return PY_binsearchmin(pHanString, pLex->stData.pSortedPhraseId, pLex->stData.nSortedPhraseTotal, sizeof(PY_UINT32), (PY_compare) PYLex_SortedPhraseCompare, pLex);
 
 }

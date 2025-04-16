@@ -73,9 +73,9 @@ int load_lex(PY_BLOCK *pBlock, const char *pFileName)
     FILE* fp = fopen(pFileName, "rb");
     if (fp != NULL)
     {
-        fseek(fp, 0L, SEEK_END); /* ¶¨Î»µ½ÎÄ¼þÄ©Î² */
+        fseek(fp, 0L, SEEK_END); /* ï¿½ï¿½Î»ï¿½ï¿½ï¿½Ä¼ï¿½Ä©Î² */
 
-        int flen = ftell(fp); /* µÃµ½ÎÄ¼þ´óÐ¡ */
+        int flen = ftell(fp); /* ï¿½Ãµï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Ð¡ */
         pBlock->pAddress = (PY_BYTE *) malloc(flen);
         pBlock->nSize = flen;
 
@@ -99,7 +99,7 @@ int test_engine()
     PY_BLOCK stBlock;
     load_lex(&stBlock, "../../../Data/Phrase/sys_lex.dic");
 
-    PY_UINT32 nVersion = PYEngine_GetVersion();
+    PY_PCSTR nVersion = PYEngine_GetVersion();
 
     PY_UINT32 nInstSize = PYEngine_GetInstanceSize();
     PY_BYTE* pInstObj = (PY_BYTE*)malloc(nInstSize);
@@ -117,7 +117,7 @@ int test_engine()
 
         PY_CHAR szCompString[256];
         PY_UINT16 nCompLen = 256;
-        PYEngine_GetCompStringUtf8(hEngine, 0, szCompString, &nCompLen, 0, 0);
+        PYEngine_GetCompStringUtf8(hEngine, 0, szCompString, nCompLen, 0, 0);
         PY_UINT16 nCandTotal = PYEngine_GetCandTotal(hEngine);
         PY_CHAR szKeyString[256];
         PY_UINT16 nKeyLen = 256;

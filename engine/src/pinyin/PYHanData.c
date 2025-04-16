@@ -55198,7 +55198,7 @@ const static PY_HAN_DATA G_PY_HAN_DATA_DAT =
     G_PY_KEY_ITEM_DAT,
 };
 
-const PY_HAN_DATA * PYHan_GetHanData(IM_VOID)
+const PY_HAN_DATA * PYHan_GetHanData(PY_VOID)
 {
     return &G_PY_HAN_DATA_DAT;
 }

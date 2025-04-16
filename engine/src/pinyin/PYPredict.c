@@ -131,7 +131,7 @@ PY_UINT16 PYPredict_Search(PY_PREDICT* pPredict, PY_UINT16* pHanString, PY_UINT1
 
 	if (pPredict->nCandItemTotal > 0)
 	{
-		PY_quicksort(pPredict->nCandItem, pPredict->nCandItemTotal, sizeof(PY_CAND_ITEM), PYPredict_PhraseCompare, PY_NULL);
+		PY_quicksort(pPredict->nCandItem, pPredict->nCandItemTotal, sizeof(PY_CAND_ITEM), (PY_compare) PYPredict_PhraseCompare, PY_NULL);
 	}
 
 

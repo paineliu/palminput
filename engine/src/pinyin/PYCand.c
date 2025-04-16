@@ -250,7 +250,7 @@ PY_VOID PYCand_GenCand(PY_CAND* pCand, PY_UINT16 nKeyLen)
 	// 候选排序
 	if (pCand->nCandItemTotal > 0)
 	{
-		PY_quicksort(pCand->nCandItem, pCand->nCandItemTotal, sizeof(PY_CAND_ITEM), PYCand_PhraseCompare, PY_NULL);
+		PY_quicksort(pCand->nCandItem, pCand->nCandItemTotal, sizeof(PY_CAND_ITEM), (PY_compare) PYCand_PhraseCompare, PY_NULL);
 		// 添加fix候选
 		PYCand_GenFixCand(pCand);
 
