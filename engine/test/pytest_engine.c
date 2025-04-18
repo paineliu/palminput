@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <memory.h>
 #include "PYEngineEx.h"
-
+#include "PDLexCore.h"
 int phrase_output_test()
 {
     PY_HANDLE hEngine = PYEngine_New("");
@@ -96,14 +96,19 @@ int load_lex(PY_BLOCK *pBlock, const char *pFileName)
 
 int test_engine()
 {
-    PY_BLOCK stBlock;
+    PY_BLOCK stBlock={0};
     load_lex(&stBlock, "../../../Data/Phrase/sys_lex.dic");
 
+    if (stBlock.pAddress == PY_NULL)
+    {
+        stBlock.pAddress = PDLexCore_ptr();
+        stBlock.nSize = PDLexCore_size();
+    }
     PY_PCSTR nVersion = PYEngine_GetVersion();
 
     PY_UINT32 nInstSize = PYEngine_GetInstanceSize();
     PY_BYTE* pInstObj = (PY_BYTE*)malloc(nInstSize);
-
+    memset(pInstObj, 0, nInstSize);
     PY_HANDLE hEngine = PYEngine_Initialize(pInstObj, nInstSize, &stBlock, 1);
     
     printf("%s mem = %d\n", PYEngine_GetVersion(), nInstSize);

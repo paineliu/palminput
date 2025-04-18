@@ -124,17 +124,20 @@ PY_INT16 PYEngine_GetBlockType(const PY_BLOCK* pBlock)
 {
 	PY_FILE_HEAD* pHead = (PY_FILE_HEAD*)pBlock->pAddress;
 
-	if (pHead->nFileMask == PY_FILE_PY_SYSTEM_MASK) {
-		return PY_LEX_CORE;
-	}
-	else if (pHead->nFileMask == PY_FILE_PY_TERM1_MASK) {
-		return PY_LEX_TERM1;
-	}
-	else if (pHead->nFileMask == PY_FILE_PY_TERM2_MASK) {
-		return PY_LEX_TERM2;
-	}
-	else if (pHead->nFileMask == PY_FILE_PY_DYNAMIC_MASK) {
-		return PY_LEX_USER;
+	if (pBlock->pAddress != PY_NULL)
+	{
+		if (pHead->nFileMask == PY_FILE_PY_SYSTEM_MASK) {
+			return PY_LEX_CORE;
+		}
+		else if (pHead->nFileMask == PY_FILE_PY_TERM1_MASK) {
+			return PY_LEX_TERM1;
+		}
+		else if (pHead->nFileMask == PY_FILE_PY_TERM2_MASK) {
+			return PY_LEX_TERM2;
+		}
+		else if (pHead->nFileMask == PY_FILE_PY_DYNAMIC_MASK) {
+			return PY_LEX_USER;
+		}	
 	}
 
 	return PY_LEX_UNKNOWN;
