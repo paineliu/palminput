@@ -12,7 +12,9 @@
 
 void set_charset()
 {
+#ifdef _WIN32
     system("chcp 65001");
+#endif
 
     //CONSOLE_FONT_INFOEX info = { 0 };
     //info.cbSize = sizeof(info);
