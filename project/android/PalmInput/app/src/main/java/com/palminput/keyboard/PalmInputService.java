@@ -1,8 +1,10 @@
 package com.palminput.keyboard;
 
+import android.graphics.Insets;
 import android.graphics.Point;
 import android.graphics.Rect;
 import android.inputmethodservice.InputMethodService;
+import android.os.Build;
 import android.os.SystemClock;
 import android.view.Display;
 import android.view.KeyEvent;
@@ -13,6 +15,8 @@ import android.view.WindowMetrics;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 import android.widget.RelativeLayout;
+
+import androidx.annotation.RequiresApi;
 
 public class PalmInputService extends InputMethodService {
     PalmInputManager mInputManager;
@@ -52,11 +56,13 @@ public class PalmInputService extends InputMethodService {
     @Override
     public void onComputeInsets(Insets outInsets) {
         super.onComputeInsets(outInsets);
-        int top;
+        int top = 0;
         if (mRL != null) {
             top = mRL.getHeight() - getKeyboardHeight();
         } else {
-            top = getWindowHeight() - getKeyboardHeight();
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+                top = getWindowHeight() - getKeyboardHeight();
+            }
         }
 
         outInsets.contentTopInsets = outInsets.visibleTopInsets = top;
@@ -66,9 +72,10 @@ public class PalmInputService extends InputMethodService {
         return getMaxWidth();
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.R)
     private int getWindowHeight()
     {
-        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.R)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R)
         {
             WindowManager windowManager = (WindowManager) getSystemService(WINDOW_SERVICE);
             final WindowMetrics metrics = windowManager.getCurrentWindowMetrics();
@@ -91,7 +98,10 @@ public class PalmInputService extends InputMethodService {
     }
 
     public int getKeyboardHeight() {
-        int keyboardMaxHeight = getWindowHeight() / 2;
+        int keyboardMaxHeight = 0;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            keyboardMaxHeight = getWindowHeight() / 2;
+        }
         int keyboardheight = getMaxWidth() * 7 / 10;
         if (keyboardheight > keyboardMaxHeight) {
             keyboardheight = keyboardMaxHeight;

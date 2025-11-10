@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  PalmInputService
+
+  Created by Harrison on 2018/10/5.
+  Copyright © 2018 freeinput. All rights reserved.
+*/
+
+menu_item_preference = "偏好设置";
+menu_item_about = "关于";
+
